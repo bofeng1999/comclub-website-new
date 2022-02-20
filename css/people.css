@@ -55,14 +55,9 @@ img {
 }
 
 #navbar #options p a:hover {
-    color: gold;
+    color: #273c75;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.current-page {
-    text-decoration: none;
-    color: gold;
 }
 
 #navbar #options p {
