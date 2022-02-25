@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Jenny Jian Jie",
-                "role": "Asst. General Secretary"
+                "role": "Assistant General Secretary"
             },
             {
                 "name": "Rishabh Anand",
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Megan Wee",
-                "role": "Asst. Tech Lead"
+                "role": "Assistant Tech Lead"
             },
             {
                 "name": "Tan Kian Lin",
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Sophie Ng",
-                "role": "Asst. Finance Secretary"
+                "role": "Assistant Finance Secretary"
             }
         ],
         "External Relations": [
@@ -162,8 +162,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         var card = document.createElement("div")
         card.classList += "wing-card"
-        var cardImage = document.createElement("div")
+
+        var cardImgCont = document.createElement("div")
+        cardImgCont.classList += "wing-pic-cont"
+        var cardImage = document.createElement("img")
         cardImage.classList += "card-pic"
+        cardImage.src = "./assets/" + name.replace(/ +/g, "") + ".jpg"
+        cardImgCont.appendChild(cardImage)
 
         var details = document.createElement("div")
         details.classList += "card-details"
@@ -186,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         details.appendChild(mmbrname)
         details.appendChild(mmbrpos)
 
-        card.appendChild(cardImage)
+        card.appendChild(cardImgCont)
         card.appendChild(details)
 
         container.append(card)
