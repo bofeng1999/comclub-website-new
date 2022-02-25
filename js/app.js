@@ -91,19 +91,19 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "David Limantara",
-                "role": "Director, Academics"
+                "role": "Director, Academic Liaison"
             },
             {
                 "name": "Joel Toh",
-                "role": "Deputy Director, Academics"
+                "role": "Deputy Director, Academic Liaison"
             },
             {
                 "name": "Cheang Xue Ting",
-                "role": "Director, Comm. Service"
+                "role": "Director, Community Service"
             },
             {
                 "name": "Wei Yangken",
-                "role": "Deputy Director, Comm. Service"
+                "role": "Deputy Director, Community Service"
             }
         ],
         "Student Life": [
@@ -113,15 +113,15 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Tricia Goh",
-                "role": "Director, FOP"
+                "role": "Director, Freshman Orientation Projects"
             },
             {
                 "name": "Summer Thia",
-                "role": "Deputy Director, FOP"
+                "role": "Deputy Director, Freshman Orientation Projects"
             },
             {
                 "name": "Andrea Loh",
-                "role": "Deputy Director, FOP"
+                "role": "Deputy Director, Freshman Orientation Projects"
             },
             {
                 "name": "Merrick Neo",
