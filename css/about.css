@@ -159,16 +159,3 @@ img {
     cursor: pointer;
     transition: 0.5s;
 }
-
-#footer #feedback {
-    margin: auto 5%;
-    color: white;
-    font-size: 19px;
-}
-
-#footer #feedback a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #273c75;
-    font-size: 22px;
-}
