@@ -87,6 +87,10 @@ img {
     background-repeat: no-repeat;
 }
 
+#hero-img-dup {
+    display: none;
+}
+
 #about-para {
     width: 70%;
     color: black;
@@ -167,6 +171,10 @@ img {
 @media (max-width: 1340px) {
     #footer #footer-logo {
         height: 60px;
+    }
+
+    #hero-img-dup {
+        display: none;
     }
 }
 
