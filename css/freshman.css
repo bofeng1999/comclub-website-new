@@ -309,6 +309,52 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
+#camp-socials {
+	width: 100%;
+	min-height: 300px;
+}
+
+#camp-socials #camp-socials-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 50%;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.social-card {
+	width: auto;
+	height: 55px;
+	border-radius: 100px;
+	background-color: #c7ecee;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0 15px;
+	margin: auto 20px;
+}
+
+.social-card i {
+	font-size: 20px;
+	margin: auto 5px auto 7px;
+	color: #576574;
+}
+
+.social-card a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #576574;
+	font-size: 15px;
+	margin: auto 5px;
+	padding-left: 7px;
+	border-left: 1.5px solid rgba(184, 184, 184, 0.3);
+	vertical-align: middle;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 #footer {
 	white-space: 100%;
 	min-height: 200px;
@@ -355,14 +401,6 @@ img {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 1160px) {
-	#footer #footer-logo {
-		height: 60px;
-	}
-}
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-
-@media (max-width: 1160px) {
     #header-stmt {
         font-size: 35px;
     }
@@ -374,6 +412,15 @@ img {
     #footer #footer-logo {
         height: 60px;
     }
+
+	#camp-socials {
+		padding-bottom: 20px;
+	}
+
+	#camp-socials #camp-socials-container {
+		height: 140px;
+		width: 80%;
+	}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -421,7 +468,7 @@ img {
 	#segment-para {
 		width: 85%;
 	}
-	
+
 	#footer {
 		display: flex;
 		flex-direction: column;
