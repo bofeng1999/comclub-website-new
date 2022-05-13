@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 "name": "Dao Minh Hai",
                 "role": "Vice President",
-                "url": ""
+                "url": "https://www.linkedin.com/in/daominhhai/"
             },
             {
                 "name": "Tricia Goh",
@@ -229,13 +229,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.open(url, '_blank');
             })
 
-            cardImage.addEventListener("click", () => {
-                window.open(url, '_blank');
-            })
+            // cardImage.addEventListener("click", () => {
+            //     window.open(url, '_blank');
+            // })
 
-            details.addEventListener("click", () => {
-                window.open(url, '_blank');
-            })
+            // details.addEventListener("click", () => {
+            //     window.open(url, '_blank');
+            // })
         }
 
         container.append(card)
@@ -250,4 +250,11 @@ document.addEventListener('DOMContentLoaded', () => {
             createCard(loc, name, role, url)
         }
     }
+
+    const toggleFOPButton = document.getElementById('toggle-fop-banner')
+    const fopBanner = document.getElementById('fop-banner')
+
+    toggleFOPButton.addEventListener("click", () => {
+        fopBanner.style.display = "none"
+    })
 })
