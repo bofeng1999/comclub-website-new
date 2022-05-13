@@ -36,7 +36,7 @@ img {
 #fop-banner p {
     font-size: 14px;
     color: black;
-    margin: auto 0;
+    margin: auto 0 auto 5px;
 }
 
 #fop-banner button {
@@ -45,7 +45,7 @@ img {
     border-radius: 7px;
     border: 1px black solid;
     color: black;
-    margin: auto 0 auto 5%;
+    margin: auto 5px auto 5%;
     width: 60px;
     height: 20px;
     background-color: none;
