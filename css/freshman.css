@@ -358,10 +358,22 @@ img {
 	#footer #footer-logo {
 		height: 60px;
 	}
-	
-	#hero-img-dup {
-		display: none;
-	}
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1160px) {
+    #header-stmt {
+        font-size: 35px;
+    }
+
+    #header-stmt i {
+        font-size: 14px;
+    }
+
+    #footer #footer-logo {
+        height: 60px;
+    }
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -400,21 +412,6 @@ img {
 	
 	#navbar #options p a {
 		font-size: 17px;
-	}
-	
-	#hero-img {
-		display: none;
-	}
-	
-	#hero-img-dup {
-		display: block;
-		width: 85%;
-		margin: 0 auto;
-	}
-	
-	#about-para {
-		width: 85%;
-		padding-top: 0;
 	}
 	
 	#segment-header {
