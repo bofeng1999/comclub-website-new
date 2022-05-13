@@ -34,13 +34,13 @@ img {
 }
 
 #fop-banner p {
-    font-size: 13px;
+    font-size: 14px;
     color: black;
-    margin: auto 0 auto 5%;
+    margin: auto 0;
 }
 
 #fop-banner button {
-    font-size: 15px;
+    font-size: 14px;
     font-family: Karla, Avenir Next, sans-serif;
     border-radius: 7px;
     border: 1px black solid;
@@ -370,6 +370,23 @@ img {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 450px) {
+    #fop-banner {
+        height: 75px;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #fop-banner p {
+        padding: 0;
+        margin: 5px auto;
+	}
+
+    #fop-banner button {
+		margin: 5px auto;
+	}
+
     #navbar {
         height: 120px;
         flex-direction: column;

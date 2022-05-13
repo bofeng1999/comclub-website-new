@@ -1,12 +1,10 @@
-// $(function(){
-// 	var inputs = $('.input');
-// 	var paras = $('.description-flex-container').find('p');
-// 	inputs.click(function(){
-// 		var t = $(this),
-// 				ind = t.index(),
-// 				matchedPara = paras.eq(ind);
-		
-// 		t.add(matchedPara).addClass('active');
-// 		inputs.not(t).add(paras.not(matchedPara)).removeClass('active');
-// 	});
-// });
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("app loaded")
+    
+    const toggleFOPButton = document.getElementById('toggle-fop-banner')
+    const fopBanner = document.getElementById('fop-banner')
+
+    toggleFOPButton.addEventListener("click", () => {
+        fopBanner.style.display = "none"
+    })
+})

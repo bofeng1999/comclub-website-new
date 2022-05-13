@@ -25,6 +25,44 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
+#fop-banner {
+    background-color: #feca57;
+    width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#fop-banner p {
+	width: 75%;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+    margin: 0 auto;
+}
+
+#fop-banner button {
+    font-size: 14px;
+    font-family: Karla, Avenir Next, sans-serif;
+    border-radius: 7px;
+    border: 1px black solid;
+    color: black;
+    margin: 10px auto 0 auto;
+    width: 60px;
+    height: 20px;
+    background-color: none;
+    background: none;
+    cursor: pointer;
+}
+
+#fop-banner button:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 #navbar {
 	width: 100%;
 	height: 90px;
@@ -329,6 +367,14 @@ img {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 450px) {
+	#fop-banner {
+		height: 120px;
+	}
+
+	#fop-banner p {
+		width: 95%;
+	}
+
 	#navbar {
 		height: 120px;
 		flex-direction: column;
