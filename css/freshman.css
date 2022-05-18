@@ -202,6 +202,46 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
+.event-callout-box, .callout-box {
+	width: 100%;
+	height: 60px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	overflow: hidden;
+	border-radius: 5px;
+	/* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); */
+	margin: 20px 0;
+}
+
+.event-callout-box {
+	width: 90%;
+}
+
+.event-callout-emoji, .callout-emoji {
+	font-size: 18px;
+	width: 50px;
+	height: auto;
+	text-align: center;
+	margin: auto 0;
+	color: #4a69bd;
+}
+
+.event-callout-text, .callout-text {
+	font-size: 17px;
+	margin: auto 0;
+}
+
+.event-callout-text a, .callout-text a {
+	color: #222f3e;
+	border-bottom: 3.5px solid #feca57;
+	text-decoration: none;
+	font-size: 600;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 .event-container {
 	width: 55%;
 	margin: 0 auto;
@@ -372,6 +412,10 @@ img {
 	/* .spec-event-container {
 		width: 80%;
 	} */
+
+	.event-callout-box {
+		width: 100%;
+	}
 
 	#spec-event-segment-header, #spec-event-segment-header, #event-segment-header, #event-segment-para {
 		width: 100%;
