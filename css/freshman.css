@@ -163,9 +163,10 @@ img {
 	flex-direction: row;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
-	height: 50px;
+	height: auto;
+	padding: 15px 0;
 }
 
 .social-card {
@@ -177,7 +178,8 @@ img {
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 0 15px;
-	margin: auto 20px;
+	margin: auto 0;
+	margin-top: 10px;
 }
 
 .social-card i {
@@ -262,8 +264,15 @@ img {
 	}
 
 	#camp-socials #camp-socials-container {
-		height: 200px;
-		width: 80%;
+		height: auto;
+		/* min-height: 120px; */
+		/* padding: 10px 0 0 0; */
+		padding: 0;
+		width: 50%;
+	}
+
+	.social-card {
+		margin: 10px;
 	}
 }
 
