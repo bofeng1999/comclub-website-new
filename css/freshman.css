@@ -139,6 +139,7 @@ img {
     font-weight: bold;
     padding: 20px 0 0 0;
     text-align: left;
+	zoom: 1.2;
 }
 
 #segment-para {
@@ -149,13 +150,15 @@ img {
     line-height: 32px;
     padding: 10px 0;
     text-align: left;
+	zoom: 1.2;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 #camp-socials {
 	width: 100%;
-	min-height: 300px;
+	min-height: 330px;
+	padding-bottom: 20px;
 }
 
 #camp-socials #camp-socials-container {
@@ -211,7 +214,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	zoom: 1.1;
+	zoom: 1.2;
 }
 
 .spec-event-container {
@@ -221,6 +224,7 @@ img {
     line-height: 32px;
     padding: 15px 0;
     text-align: left;
+	zoom: 1.2;
 }
 
 .spec-event-container img {
@@ -238,6 +242,7 @@ img {
     font-weight: bold;
     padding: 20px 0 0 0;
     text-align: left;
+	/* zoom: 1.2; */
 }
 
 .spec-event-container #spec-event-segment-para {
@@ -246,6 +251,7 @@ img {
     line-height: 32px;
     padding: 10px 0;
     text-align: left;
+	/* zoom: 1.2; */
 }
 
 .event-container img {
