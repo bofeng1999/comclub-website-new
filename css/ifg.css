@@ -1,0 +1,215 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Karla, Avenir Next, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+	user-select: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222f3e;
+}
+
+#header p {
+    margin: auto 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#header span {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#meta-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container {
+    width: 50%;
+    margin: auto 0;
+}
+
+#segment-header {
+    color: #222f3e;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+#cards-container {
+    width: 100%;
+    padding: 10px 0;
+}
+
+#segment-para {
+    padding-top: 10px;
+    color: rgb(41, 40, 40);
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.website, .insta, .email {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+.website i, .insta i, .email i {
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.website i {
+    color: #6a89cc;
+}
+
+.insta i {
+    color: indianred;
+}
+
+.email i {
+    color: #f6b93b;
+}
+
+.website a, .insta a, .email a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.event-card {
+    width: 100%;
+    height: 120px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.event-card .event-cont {
+    /* margin: 0l */
+    height: 80%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.event-card .event-bottom {
+    /* margin: 0 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 20%;
+}
+
+.event-card .event-left {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-card .event-right {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-card .event-cont .event-left .event-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.event-card .event-cont .event-right .event-time {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.event-card .event-cont .event-left .event-venue  {
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.event-card .event-cont .event-right .event-date {
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.event-card .event-bottom .event-tag {
+    width: fit-content;
+    font-size: 13px;
+    font-weight: lighter;
+    background-color: #55efc4;
+    padding: 4px 10px;
+    margin: 0 7px 0 0;
+    border-radius: 100px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+    #container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    #container {
+        width: 90%;
+    }
+
+    #segment-header {
+        font-size: 32px;
+    }
+
+    .event-card .event-cont .event-left .event-title {
+        font-size: 20px;
+    }
+
+    .event-card .event-cont .event-right .event-time {
+        font-size: 20px;
+    }
+
+    .event-card .event-cont .event-left .event-venue {
+        font-size: 13px;
+    }
+
+    .event-card .event-cont .event-right .event-date {
+        font-size: 13px;
+    }
+}
