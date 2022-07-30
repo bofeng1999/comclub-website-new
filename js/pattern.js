@@ -1,6 +1,3 @@
-import random from "https://cdn.skypack.dev/random";
-import seedrandom from "https://cdn.skypack.dev/seedrandom";
-
 class BauhausPattern {
   static get inputProperties() {
     return [
