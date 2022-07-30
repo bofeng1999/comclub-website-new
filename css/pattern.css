@@ -31,7 +31,7 @@
 .worklet-canvas {
     /* the default custom properties defined above could be overriden here */
     width: 100%;
-    height: 20%;
+    height: 100px;
     background-color: #18111d;
     /* use the worklet to create the background-image for this element */
     background-image: paint(bauhausPattern);
