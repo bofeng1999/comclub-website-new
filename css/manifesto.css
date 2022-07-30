@@ -5,8 +5,10 @@ html, body {
 }
 
 body {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #9599E2 0%, #97D9E1 100%);
+    /* background-color: #8BC6EC; */
+    /* background-image: linear-gradient(135deg, #9599E2 0%, #97D9E1 100%); */
+    background-size: 120px 120px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.025) 1px, transparent 1px);
 }
 
 * {
@@ -38,7 +40,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
 }
 
 #navbar #logo {
@@ -56,7 +57,7 @@ img {
 
 #navbar #options p a {
     text-decoration: none;
-    color: white;
+    color: rgb(74, 74, 74);
     cursor: pointer;
 }
 

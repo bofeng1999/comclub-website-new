@@ -10,38 +10,41 @@
         <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/elections.css">
         <link rel="stylesheet" href="css/elections-timeline.css">
+        <link rel="stylesheet" href="css/pattern.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/elections.js"></script>
+        <script src="js/pattern.js"></script>
         <title>Elections | NUS Students' Computing Club</title>
     </head>
 
     <body>
-        <div id="fop-banner">
+        <!-- <div id="fop-banner">
             <p>
                 <strong>This webpage is frequently updated.</strong> We urge all applicants to check back regularly for 
                 new information.
             </p>
             <button id="toggle-fop-banner">Got it!</button>
-        </div>
+        </div> -->
 
         <div id="navbar">
-            <img src="assets/logo.png" width="40" id="logo">
+            <img src="assets/black-logo.png" width="40" id="logo">
             <!-- <p id="logo">NUS Computing Club</p> -->
             <div id="options">
                 <p><a target="_blank" href="manifesto.html">Manifesto</a></p>
                 <p><a href="roles.html">Roles</a></p>
-                <p><a href="faq.html">Rules and FAQ</a></p>
+                <p><a href="faq.html">Rules/FAQ</a></p>
             </div>
         </div>
 
         <div id="hero">
             <p id="hero-header">Don't wait for change. <span style="color: #e58e26;">Be the change.</span></p>
             <p id="hero-subheader">Register for the upcoming NUS Students' Computing Club Elections 2022 today!</p>
-            <button style="margin-bottom: 15px;" id="hero-register">I'm interested <i style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></button>
+            <button style="margin-bottom: 7px;" id="hero-register">I'm interested <i style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></button>
             <br>
-            <a style="color: #57606f; text-decoration: none; border-bottom: 1px solid rgba(0, 0, 0, 0.5);" target="_blank" href="manifesto.html">... or read our manifesto</a>
+            <a style="color: #57606f;" target="_blank" href="manifesto.html">... or read our manifesto</a>
             <!-- <p id="scroll-indic"><i class="fa-solid fa-angles-down"></i></p> -->
         </div>
+        <div class="worklet-canvas"></div>
 
         <!-- <div id="speech">
             <div id="speech-container">
@@ -123,6 +126,14 @@
                 </div>
             </div>
         </div>
-        
+
+        <div id="footer">
+            <p>Made with <i class="fa-solid fa-heart"></i> by the 24<sup>th</sup> MC | 2022</p>
+        </div>
     </body>
+
+    <script>
+        CSS.paintWorklet.addModule('https://codepen.io/georgedoescode/pen/qBXYama.js');
+        document.documentElement.style.setProperty('--pattern-seed', Math.random() * 10000);
+    </script>
 </html>
