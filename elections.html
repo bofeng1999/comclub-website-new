@@ -8,14 +8,134 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/freshman.css">
-        <link rel="stylesheet" href="css/timeline.css">
+        <link rel="stylesheet" href="css/elections.css">
+        <link rel="stylesheet" href="css/elections-timeline.css">
+        <link rel="stylesheet" href="css/pattern.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="js/freshman.js"></script>
+        <!-- <script src="https://cdn.skypack.dev/random"></script> -->
+        <!-- <script src="https://cdn.skypack.dev/seedrandom"></script> -->
+        <script src="js/elections.js"></script>
+        <script src="js/pattern.js"></script>
         <title>Elections | NUS Students' Computing Club</title>
     </head>
 
     <body>
-        <p>Placeholder text for the <strong>25th MC Elections</strong> site.</p>
+        <div id="fop-banner">
+            <p>
+                <strong>This webpage is frequently updated.</strong> We urge all applicants to check back regularly for 
+                new information.
+            </p>
+            <button id="toggle-fop-banner">Got it!</button>
+        </div>
+
+        <div id="navbar">
+            <img src="assets/black-logo.png" width="40" id="logo">
+            <!-- <p id="logo">NUS Computing Club</p> -->
+            <div id="options">
+                <p><a target="_blank" href="manifesto.html">Manifesto</a></p>
+                <p><a href="roles.html">Roles</a></p>
+                <p><a href="faq.html">Rules/FAQ</a></p>
+            </div>
+        </div>
+
+        <div id="hero">
+            <p id="hero-header">Don't wait for change. <span style="color: #e58e26;">Be the change.</span></p>
+            <p id="hero-subheader">Register for the upcoming NUS Students' Computing Club Elections 2022 today!</p>
+            <button style="margin-bottom: 7px;" id="hero-register">I'm interested <i style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></button>
+            <br>
+            <a style="color: #57606f;" target="_blank" href="manifesto.html">... or read our manifesto</a>
+            <!-- <p id="scroll-indic"><i class="fa-solid fa-angles-down"></i></p> -->
+        </div>
+        <div class="worklet-canvas"></div>
+
+        <!-- <div id="speech">
+            <div id="speech-container">
+                <div id="left">
+                    <p id="speech-header">Foreword</p>
+                    <p id="speech-text">
+                        University is not just a place for you to equip yourself with knowledge. It's where you form your best memories and forge friendships that will last the 
+                        rest of your life – Computing Club certainly gave me both, making it one of my best experiences at SoC! Despite the pandemic, I can confidently say I've 
+                        had a fulfilling varsity life. From Director of FOP in Year 1 to President in Year 2, I’m glad to have embarked on this journey spanning two terms. As I end my presidency, I have strong faith that the future of the club is in competent hands – those that have what it takes to lead the faculty forward. I encourage you to step up and run for the 25th Management Committee Elections.
+
+                        <br>
+                        <br>
+                        <span>Raveen Prabhu</span>
+                        <br>
+                        President, 24<sup>th</sup> Management Committee
+                    </p>
+                </div>
+    
+                <div id="right"></div>
+            </div>
+        </div> -->
+
+        <div id="timeline-section">
+            <p id="segment-header">Timeline</p>
+            <p id="segment-subheader">
+                The election will run through the first half of <span>AY22/23 Semester 1</span>. Do take note of key dates and events. 
+                For more information about each phase, check out our <span>FAQ page</span>!
+            </p>
+        </div>
+        
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h3>August 7-18</h3>
+                    <p>Nominations</p>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3>August 18-22</h3>
+                    <p>Campaigning</p>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h3>August 24-26</h3>
+                    <p>External Elections<p>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3>August 30</h3>
+                    <p>External Election Results</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="camp-socials">
+            <p id="segment-header" style="text-align: center;">
+                Reach Out
+            </p>
+
+            <p id="segment-subheader" style="text-align: center; margin-bottom: 15px;">
+                Message us on Instagram or email us if you have any questions!
+            </p>
+
+            <div id="camp-socials-container">
+                <div id="email-card" class="social-card" style="background-color: #ffbfbf;">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a target="_blank" href="https://www.instagram.com/nuscomputingclub/">@nuscomputingclub</a>
+                </div>
+
+                <div id="email-card" class="social-card" style="background-color: #e8ffa3;">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a target="_blank" href="mailto:elections@nuscomputing.com">elections@nuscomputing.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>Made with <i class="fa-solid fa-heart"></i> by the 24<sup>th</sup> MC | 2022</p>
+        </div>
     </body>
+
+    <script>
+        CSS.paintWorklet.addModule('https://codepen.io/georgedoescode/pen/qBXYama.js');
+        document.documentElement.style.setProperty('--pattern-seed', Math.random() * 10000);
+    </script>
 </html>

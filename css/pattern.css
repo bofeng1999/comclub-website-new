@@ -1,0 +1,39 @@
+@property --pattern-seed {
+    syntax: "<number>";
+    initial-value: 1000;
+    inherits: true;
+}
+
+@property --pattern-colors {
+    syntax: "<color>#";
+    initial-value: #2d58b5, #f43914, #f9c50e, #ffecdc;
+    inherits: true;
+}
+
+@property --pattern-size {
+    syntax: "<number>";
+    initial-value: 1024;
+    inherits: true;
+}
+
+@property --pattern-detail {
+    syntax: "<number>";
+    initial-value: 16;
+    inherits: true;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.worklet-canvas {
+    /* the default custom properties defined above could be overriden here */
+    width: 100%;
+    height: 100px;
+    background-color: #18111d;
+    /* use the worklet to create the background-image for this element */
+    background-image: paint(bauhausPattern);
+    vertical-align: bottom;
+}
