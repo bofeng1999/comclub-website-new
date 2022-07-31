@@ -25,15 +25,16 @@ img {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
-
 #navbar {
     width: 100%;
     height: 90px;
-    background-color: #4a69bd;
+    background-color: none;
+    background: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    background-size: 120px 120px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.025) 1px, transparent 1px);
 }
 
 #navbar #logo {
@@ -51,7 +52,7 @@ img {
 
 #navbar #options p a {
     text-decoration: none;
-    color: white;
+    color: rgb(74, 74, 74);
     cursor: pointer;
 }
 
@@ -62,8 +63,8 @@ img {
 }
 
 #navbar #options p {
-    margin: 0 15px;
-    font-size: 19px;
+    margin: 0 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -76,6 +77,8 @@ img {
     margin: auto;
     font-family: Karla, Avenir Next, sans-serif;
     padding-top: 10px;
+    background-color: white;
+    display: inline-block;
 }
 
 /* Style the buttons inside the tab */
@@ -90,13 +93,14 @@ img {
     font-size: 25px;
     margin: auto;
     text-align: center;
-    width: 25%;
+    white-space: nowrap;
     color: white;
     background-color: #4a69bd;
     font-family: Karla, Avenir Next, sans-serif;
     height: 100px;
     text-align: center;
     margin: auto;
+    width: 25%; /*Note: Width is set via Javascript in the html pages*/
 }
 
 
@@ -170,7 +174,10 @@ img {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 #main-container {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-size: 120px 120px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.025) 1px, transparent 1px);
+    /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0.25) 2px, rgba(0, 0, 0, 0) 1px); */
     width: 100%;
     height: auto;
     margin: 0;
