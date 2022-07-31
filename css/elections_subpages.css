@@ -1,0 +1,393 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Karla, Avenir Next, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-select: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #4a69bd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+#navbar #logo {
+    margin: auto 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar #options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto 5% auto 0;
+}
+
+#navbar #options p a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar #options p a:hover {
+    color: #273c75;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#navbar #options p {
+    margin: 0 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-family: Karla, Avenir Next, sans-serif;
+    padding-top: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    color: white;
+    background-color: #4a69bd;
+    font-family: Karla, Avenir Next, sans-serif;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #60a3bc;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #60a3bc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 70%;
+    text-align: left;
+    margin: auto;
+}
+
+#tab-header {
+    width: 95%;
+    margin: 0 auto;
+    color: #222f3e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+#tab-para {
+    width: 95%;
+    margin: 0 auto;
+    color: black;
+    font-size: 17px;
+    line-height: 32px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+#tab-list {
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    font-size: 17px;
+    line-height: 32px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+#tab-img {
+    width: 50%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+}
+
+#tab-img-dup {
+    padding-bottom: 20px;
+    display: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#main-container {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#hero-img {
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero-img-dup {
+    display: none;
+}
+
+#about-para {
+    width: 70%;
+    color: black;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 10px 0 30px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#segment-header {
+    width: 70%;
+    margin: 0 auto;
+    color: #222f3e;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+#segment-para {
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#footer {
+    white-space: 100%;
+    min-height: 200px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #60a3bc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#footer #footer-logo {
+    height: 60px;
+    margin: auto 0;
+    padding-top: 20px;
+}
+
+#footer #footer-details {
+    margin: auto 5%;
+}
+
+#footer #socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+#footer #socials i {
+    font-size: 25px;
+    padding: 0 35px 15px 0;
+    text-decoration: none;
+    color: white;
+}
+
+#footer #socials i:hover {
+    color: gold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1160px) {
+    #footer #footer-logo {
+        height: 60px;
+    }
+
+    #hero-img-dup {
+        display: none;
+    }
+
+    #tab-img-dup {
+        display: none;
+    }
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 450px) {
+    #navbar {
+        height: 120px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-bottom: 15px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    #navbar #logo {
+        margin: 30px auto 10px auto;
+    }
+
+    #navbar #options {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    #navbar #options p {
+        margin: 0 10px;
+    }
+
+    #navbar #options p a {
+        font-size: 17px;
+    }
+
+    .tab {
+        width: 85%;
+    }
+
+    .tab button {
+        font-size: 1em;
+        padding: 0px 0px;
+    }
+
+    .tabcontent {
+        width: 85%;
+    }
+
+    #tab-img {
+        display: none;
+    }
+
+    #tab-img-dup {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #hero-img {
+        display: none;
+    }
+
+    #hero-img-dup {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #about-para {
+        width: 85%;
+        padding-top: 0;
+    }
+
+    #segment-header {
+        width: 85%;
+    }
+
+    #segment-para {
+        width: 85%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #footer #footer-details {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #footer #footer-logo {
+        height: 40px;
+        margin: 5px auto 0 auto;
+    }
+
+    #footer #socials {
+        margin: 5px auto 20px auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #footer #socials i {
+        margin: 10px;
+        padding: 0;
+    }
+
+    #footer #disclaimers {
+        font-size: 13px;
+    }
+}
