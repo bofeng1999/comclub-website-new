@@ -190,7 +190,11 @@ img {
     }
 
     .pt-text {
-        width: 80%;
+        width: 95%;
+    }
+
+    #para {
+        width: 90%;
     }
 
     #navbar {
