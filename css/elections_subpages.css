@@ -93,7 +93,7 @@ img {
     font-size: 25px;
     margin: auto;
     text-align: center;
-    white-space: nowrap;
+    white-space: wrap;
     color: white;
     background-color: #4a69bd;
     font-family: Karla, Avenir Next, sans-serif;
@@ -101,6 +101,7 @@ img {
     text-align: center;
     margin: auto;
     width: 25%; /*Note: Width is set via Javascript in the html pages*/
+    overflow: hidden;
 }
 
 
