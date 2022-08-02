@@ -124,6 +124,18 @@ img {
     padding: 50px 0 20px 0;
 }
 
+#segment-header-2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0 20px 0;
+}
+
+#segment-header-faq {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 20px 0;
+}
+
 #segment-para {
     width: 70%;
     margin: 0 auto;
@@ -135,14 +147,22 @@ img {
 }
 
 #para {
-    width: 65%;
+    width: 75%;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 32px;
+}
+
+#subpara {
+    width: 75%;
     font-size: 17px;
     font-weight: lighter;
     line-height: 32px;
 }
 
+
 #points-container {
-    width: 70%;
+    width: 80%;
 }
 
 .point {
@@ -175,6 +195,19 @@ img {
     margin: auto 0;
 }
 
+
+#instructions-list {
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    font-size: 17px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -202,6 +235,10 @@ img {
     }
 
     #para {
+        width: 90%;
+    }
+
+    #subpara {
         width: 90%;
     }
 
