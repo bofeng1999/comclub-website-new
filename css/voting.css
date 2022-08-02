@@ -135,14 +135,22 @@ img {
 }
 
 #para {
-    width: 65%;
+    width: 75%;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 32px;
+}
+
+#subpara {
+    width: 75%;
     font-size: 17px;
     font-weight: lighter;
     line-height: 32px;
 }
 
+
 #points-container {
-    width: 70%;
+    width: 80%;
 }
 
 .point {
@@ -175,8 +183,38 @@ img {
     margin: auto 0;
 }
 
-/* ---------------------------------------------------------------------------------------------------------------- */
 
+#instructions-list {
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    font-size: 17px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+#hero-img {
+    width: 50%;
+    text-align: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero-img-dup {
+    display: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 1160px) {
+
+    #hero-img-dup {
+        display: none;
+    }
+
+}
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 
@@ -202,6 +240,10 @@ img {
     }
 
     #para {
+        width: 90%;
+    }
+
+    #subpara {
         width: 90%;
     }
 
@@ -245,5 +287,16 @@ img {
         font-size: 16px;
         text-align: center;
         /* padding-bottom: 20px; */
+    }
+
+    
+    #hero-img {
+        display: none;
+    }
+
+    #hero-img-dup {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
     }
 }
