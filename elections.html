@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/elections.css">
-        <link rel="stylesheet" href="css/elections-timeline.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <!-- <script src="https://cdn.skypack.dev/random"></script> -->
-        <!-- <script src="https://cdn.skypack.dev/seedrandom"></script> -->
-        <script src="js/elections.js"></script>
-        <title>Elections | NUS Students' Computing Club</title>
-    </head>
 
-    <body>
-        <div id="fop-banner">
-            <p>
-                <strong>This webpage is frequently updated.</strong> We urge all applicants to check back regularly for 
-                new information.
-            </p>
-            <button id="toggle-fop-banner">Got it!</button>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/elections.css">
+    <link rel="stylesheet" href="css/elections-timeline.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdn.skypack.dev/random"></script> -->
+    <!-- <script src="https://cdn.skypack.dev/seedrandom"></script> -->
+    <script src="js/elections.js"></script>
+    <title>Elections | NUS Students' Computing Club</title>
+</head>
+
+<body>
+    <div id="fop-banner">
+        <p>
+            <strong>This webpage is frequently updated.</strong> We urge all applicants to check back regularly for
+            new information.
+        </p>
+        <button id="toggle-fop-banner">Got it!</button>
+    </div>
+
+    <div id="navbar">
+        <a href="https://nuscomputing.com" width="40" id="logo"><img src="assets/black-logo.png" width="40"
+                id="logo"></a>
+        <div id="options">
+            <p><a href="manifesto.html">Manifesto</a></p>
+            <p><a href="roles.html">Roles</a></p>
+            <p><a href="nomination.html">Nomination</a></p>
+            <p><a href="voting.html">Voting</a></p>
         </div>
+    </div>
 
-        <div id="navbar">
-            <img src="assets/black-logo.png" width="40" id="logo">
-            <!-- <p id="logo">NUS Computing Club</p> -->
-            <div id="options">
-                <p><a target="_blank" href="manifesto.html">Manifesto</a></p>
-                <p><a href="nomination.html">Nomination</a></p>
-                <p><a href="roles.html">Roles</a></p>
-                <p><a href="faq.html">Rules</a></p>
-            </div>
-        </div>
+    <div id="hero">
+        <p id="hero-header">Don't wait for change. <span style="color: #e58e26;">Be the change.</span></p>
+        <p id="hero-subheader">Find out how you can play a part in the NUS Students' Computing Club Elections today!</p>
+        <a href="nomination.html"><button style="margin-bottom: 7px;" id="hero-register">I'm interested <i style="margin-left: 5px;"
+                class="fa-solid fa-arrow-right"></i></button></a>
+        <br>
+        <a style="color: #57606f;" href="manifesto.html">... or read our manifesto</a>
+        <!-- <p id="scroll-indic"><i class="fa-solid fa-angles-down"></i></p> -->
+    </div>
+    <!-- <div class="worklet-canvas"></div> -->
 
-        <div id="hero">
-            <p id="hero-header">Don't wait for change. <span style="color: #e58e26;">Be the change.</span></p>
-            <p id="hero-subheader">Register for the upcoming NUS Students' Computing Club Elections 2022 today!</p>
-            <button style="margin-bottom: 7px;" id="hero-register">I'm interested <i style="margin-left: 5px;" class="fa-solid fa-arrow-right"></i></button>
-            <br>
-            <a style="color: #57606f;" target="_blank" href="manifesto.html">... or read our manifesto</a>
-            <!-- <p id="scroll-indic"><i class="fa-solid fa-angles-down"></i></p> -->
-        </div>
-        <!-- <div class="worklet-canvas"></div> -->
-
-        <!-- <div id="speech">
+    <!-- <div id="speech">
             <div id="speech-container">
                 <div id="left">
                     <p id="speech-header">Foreword</p>
@@ -68,85 +70,92 @@
             </div>
         </div> -->
 
-        <div id="timeline-section">
-            <p id="segment-header">Timeline</p>
-            <p id="segment-subheader">
-                The election will run through the first half of <span>AY22/23 Semester 1</span>. Do take note of key dates and events. 
-                For more information about each phase, check out our <span>FAQ page</span>!
-            </p>
-        </div>
-        
-        <div class="timeline">
-            <div class="container left">
-                <div class="content">
-                    <h3>August 8-17</h3>
-                    <p>Nominations Period</p>
-                </div>
-            </div>
+    <div id="timeline-section">
+        <p id="segment-header">Timeline</p>
+        <p id="segment-subheader">
+            The election will run through the first half of <span>AY22/23 Semester 1</span>. Do take note of key dates
+            and events.
+            For more information about each phase, check out our <a href="nomination.html"
+                style="text-decoration: none"><span>FAQ page</span></a>!
+        </p>
+    </div>
 
-            <div class="container right">
-                <div class="content">
-                    <h3>August 18-22</h3>
-                    <p>Campaign Period</p>
-                </div>
-            </div>
-
-            <div class="container left">
-                <div class="content">
-                    <h3>August 23</h3>
-                    <p>Cooling Off Day<p>
-                </div>
-            </div>
-
-            <div class="container right">
-                <div class="content">
-                    <h3>August 24-26</h3>
-                    <p>External Elections Polling<p>
-                </div>
-            </div>
-
-            <div class="container left">
-                <div class="content">
-                    <h3>August 30</h3>
-                    <p>External Election Results</p>
-                </div>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <h3>August 8-17</h3>
+                <p>Nominations Period</p>
+                <p style="font-size:0.8em">(Ends 12pm)</p>
+                <!-- <p style="font-size: 1em; color: gray">* ends 12 00</p> -->
             </div>
         </div>
 
-        <div id="camp-socials">
-            <p id="segment-header" style="text-align: center;">
-                Reach Out
-            </p>
-
-            <p id="segment-subheader" style="text-align: center; margin-bottom: 15px;">
-                Message us on Instagram or email us if you have any questions!
-            </p>
-
-            <div id="camp-socials-container">
-                <div id="email-card" class="social-card" style="background-color: #ffbfbf;">
-                    <i class="fa-brands fa-instagram"></i>
-                    <a target="_blank" href="https://www.instagram.com/nuscomputingclub/">@nuscomputingclub</a>
-                </div>
-
-                <div id="email-card" class="social-card" style="background-color: #e8ffa3;">
-                    <i class="fa-solid fa-envelope"></i>
-                    <a target="_blank" href="mailto:elections@nuscomputing.com">elections@nuscomputing.com</a>
-                </div>
+        <div class="container right">
+            <div class="content">
+                <h3>August 18-22</h3>
+                <p>Campaign Period</p>
             </div>
         </div>
 
-        <div id="footer">
-            <p>Made with <i class="fa-solid fa-heart"></i> by the 24<sup>th</sup> MC | 2022</p>
+        <div class="container left">
+            <div class="content">
+                <h3>August 23</h3>
+                <p>Cooling Off Day
+                <p>
+            </div>
         </div>
-    </body>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            var regBtn = document.getElementById('hero-register')
+        <div class="container right">
+            <div class="content">
+                <h3>August 24-26</h3>
+                <p>External Elections Polling
+                <p>
+            </div>
+        </div>
 
-            regBtn.addEventListener("click", () => {
-                window.location.href = "nomination.html"
-            })
+        <div class="container left">
+            <div class="content">
+                <h3>August 30</h3>
+                <p>External Election Results</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="camp-socials">
+        <p id="segment-header" style="text-align: center;">
+            Reach Out
+        </p>
+
+        <p id="segment-subheader" style="text-align: center; margin-bottom: 15px;">
+            Message us on Instagram or email us if you have any questions!
+        </p>
+
+        <div id="camp-socials-container">
+            <div id="email-card" class="social-card" style="background-color: #ffbfbf;">
+                <i class="fa-brands fa-instagram"></i>
+                <a target="_blank" href="https://www.instagram.com/nuscomputingclub/">@nuscomputingclub</a>
+            </div>
+
+            <div id="email-card" class="social-card" style="background-color: #e8ffa3;">
+                <i class="fa-solid fa-envelope"></i>
+                <a target="_blank" href="mailto:elections@nuscomputing.com">elections@nuscomputing.com</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Made with <i class="fa-solid fa-heart"></i> by the 24<sup>th</sup> MC | 2022</p>
+    </div>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        var regBtn = document.getElementById('hero-register')
+
+        regBtn.addEventListener("click", () => {
+            window.location.href = "nomination.html"
         })
-    </script>
+    })
+</script>
+
 </html>
