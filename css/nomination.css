@@ -130,7 +130,16 @@ img {
     padding: 50px 0 20px 0;
 }
 
-#segment-header-faq {
+
+/* Segment Header- FAQ */
+#faq {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 20px 0;
+}
+
+/* Segment Header- Forms */
+#forms { 
     font-size: 40px;
     font-weight: bold;
     padding: 50px 0 20px 0;
