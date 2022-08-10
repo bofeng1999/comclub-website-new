@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Jenny Jian Jie",
-                "role": "Assistant General Secretary",
+                "role": "Deputy General Secretary",
                 "url": "https://www.linkedin.com/in/jenny-jian-jie/"
             },
             {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Megan Wee",
-                "role": "Assistant Tech Lead",
+                "role": "Deputy Tech Lead",
                 "url": "https://www.linkedin.com/in/megan-wee-rui-en/"
             },
             {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Sophie Ng",
-                "role": "Assistant Finance Secretary",
+                "role": "Deputy Finance Secretary",
                 "url": "https://www.linkedin.com/in/sophiieng"
             }
         ],
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             {
                 "name": "Alyssa Savier",
-                "role": "Deputy Director, Publicity (Graphics & Content)",
+                "role": "Deputy Director, Publicity (Content & Graphics)",
                 "url": "https://sg.linkedin.com/in/alyssa-savier-b83090160"
             },
             {
