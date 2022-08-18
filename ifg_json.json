@@ -1,190 +1,107 @@
-function EventCard(logs) {
-    this.logs = logs
-}
-
-EventCard.prototype.addCard = function(container) {
-    var card = document.createElement('div')
-    card.classList += 'event-card'
-
-    var cardCont = document.createElement('div')
-    cardCont.classList += 'event-cont'
-
-    var cardLeft = document.createElement('div')
-    cardLeft.classList += 'event-left'
-
-    var title = document.createElement('p')
-    title.innerHTML = this.logs['title']
-    title.classList += 'event-title'
-
-    var venue = document.createElement('p')
-    venue.innerHTML = this.logs['venue']
-    venue.classList += 'event-venue'
-
-    var cardRight = document.createElement('div')
-    cardRight.classList += 'event-right'
-
-    var time = document.createElement('p')
-    time.innerHTML = this.logs['time']
-    time.classList += 'event-time'
-
-    var date = document.createElement('p')
-    date.innerHTML = this.logs['date']
-    date.classList += 'event-date'
-
-    var cardBtm = document.createElement('div')
-    cardBtm.classList += 'event-bottom'
-
-    colorMap = {
-        "1": "#ff6b6b",
-        "2": "#ff9ff3",
-        "3": "#ff9f43",
-        "4": "#00d2d3",
-        "5": "#feca57",
-    }
-
-    if ((this.logs['tags']).length > 0) {
-        this.logs['tags'].forEach(tagName => {
-            var tag = document.createElement('p')
-            tag.classList += 'event-tag'
-    
-            if (tagName == "men's") {
-                tag.style.backgroundColor = "#1dd1a1"
-                tag.style.color = "white"
-                tag.innerHTML = tagName
-            } else if (tagName == "women's") {
-                tag.style.backgroundColor = "#5f27cd"
-                tag.style.color = "white"
-                tag.innerHTML = tagName
-            } else {
-                tag.style.backgroundColor = colorMap[tagName]
-                tag.innerHTML = "week " + tagName
-            }
-    
-            cardBtm.appendChild(tag)
-        })
-    
-        cardLeft.appendChild(title)
-        cardLeft.appendChild(venue)
-    
-        cardRight.appendChild(time)
-        cardRight.appendChild(date)
-    
-        cardCont.appendChild(cardLeft)
-        cardCont.appendChild(cardRight)
-    
-        card.appendChild(cardCont)
-        card.appendChild(cardBtm)
-    
-        container.appendChild(card)
-    }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("App loaded")
-
-    EVENTS_JSON = [
-        // {
-        //     "title": "Handball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "0900-1600",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "MPSH5"
-        // },
-        // {
-        //     "title": "Valorant",
-        //     "tags": 1,
-        //     "time": "1300-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "Com Lab"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "1200-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "UTSH2"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "1200-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "UTSH2"
-        // },
-        // {
-        //     "title": "Handball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1600",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "MPSH5"
-        // },
-        // {
-        //     "title": "Contract Bridge",
-        //     "tags": 1,
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "MPSH4"
-        // },
-        // {
-        //     "title": "Tennis",
-        //     "tags": 1,
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Tennis Courts 9-13 (5 courts)"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "UTSH1"
-        // },
-        // {
-        //     "title": "Basketball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1200",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "USC"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
+{
+    "data": [
+        {
+            "title": "Handball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "0900-1600",
+            "date": "Saturday, 13-8-2022",
+            "venue": "MPSH5"
+        },
+        {
+            "title": "Valorant",
+            "tags": 1,
+            "time": "1300-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "Com Lab"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "1200-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "UTSH2"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "1200-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "UTSH2"
+        },
+        {
+            "title": "Handball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1600",
+            "date": "Sunday, 14-8-2022",
+            "venue": "MPSH5"
+        },
+        {
+            "title": "Contract Bridge",
+            "tags": 1,
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "MPSH4"
+        },
+        {
+            "title": "Tennis",
+            "tags": 1,
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Tennis Courts 9-13 (5 courts)"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "UTSH1"
+        },
+        {
+            "title": "Basketball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1200",
+            "date": "Sunday, 14-8-2022",
+            "venue": "USC"
+        },
+        {
+            "title": "Touch Football",
+            "tags": 1,
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
+        {
+            "title": "Touch Football",
+            "tags": 1,
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
+        {
+            "title": "Touch Football",
+            "tags": 1,
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
         {
             "title": "Handball",
             "tags": [
@@ -617,29 +534,4 @@ document.addEventListener("DOMContentLoaded", () => {
             "venue": "MPSH 5"
         }
     ]
-
-    // function custom_sort(a, b) {
-        // return new Date(a.date).getTime() - new Date(b.date).getTime()
-    // }
-
-    // EVENTS_JSON.sort(custom_sort)
-
-    const dateInfo = document.getElementById('date-info')
-    const cardContainer = document.getElementById('cards-container')
-
-    var today = new Date()
-    var dayIdx = today.getDay()
-    var dd = String(today.getDate()).padStart(2, '0')
-    var mm = String(today.getMonth() + 1).padStart(2, '0')
-    var yyyy = today.getFullYear()
-    
-    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    today = weekday[dayIdx] + ', ' + dd + '-' + mm + '-' + yyyy
-    dateInfo.innerHTML += `<span style="font-size: 24px; font-weight: bold; color: #4a69bd;">${today}</span>`
-
-    EVENTS_JSON.forEach(record => {
-        var card = new EventCard(record)
-        card.addCard(cardContainer)
-    });
-})
-
+}
