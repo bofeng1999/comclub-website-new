@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/candidates.css">
+    <script src="js/candidates.js"></script>
+    <title>Home | NUS Students' Computing Club</title>
+</head>
+
+<body>
+    <!-- <div id="fop-banner">
+            <p style="text-align:center">
+                Want to join us? Election nominations are open NOW! Find out more <span><a style="font-weight: bold; color: black;" href="elections.html">here</a></span>!
+            </p>
+            <button id="toggle-fop-banner">Got it!</button>
+        </div> -->
+
+
+    <div id="navbar">
+        <a href="https://nuscomputing.com" width="40" id="logo"><img src="assets/black-logo.png" width="40"
+                id="logo"></a>
+        <div id="options">
+            <p><a href="manifesto.html">Manifesto</a></p>
+            <p><a href="roles.html">Roles</a></p>
+            <p><a href="nomination.html">Nomination</a></p>
+            <p><a href="voting.html">Voting</a></p>
+        </div>
+    </div>
+
+    <!-- <div id="hero">
+            <div id="hero-text">
+                <p id="hero-stmt">NUS Students' <br> Computing Club</p>
+                <p id="hero-para">
+                    We aim to be the voice of the students, <br>
+                    ensure their holistic well being, <br>
+                    and bridge gaps between them and the school.
+                </p>
+            </div>
+
+            <img src="assets/hero_soccat.png">
+        </div>
+
+        <div id="filler"></div> -->
+
+    <div id="people-container">
+        <p id="header-stmt">
+            Meet the Candidates
+            <i style="color: #395B9B;" class="fa-solid fa-circle"></i>
+            <i style="color: #93c6c3;" class="fa-solid fa-circle"></i>
+            <i style="color: #92CEFC;" class="fa-solid fa-circle"></i>
+        </p>
+        <p id="header-para">Introducing the candidates for the <span>25th Management Committee</span>.</p>
+
+        <!-- Popup for each Candidate-->
+        <div class="popup" id="card-popup">
+
+            <div class="popup-content">
+                <span class="close" id="close-mobile">&times;</span>
+
+                <div class="popup-content-half">
+                    <img id="card-popup-img">
+                </div>
+                <div class="popup-content-half" style="text-align:left;flex-grow: 2;">
+                    <p id="card-popup-name" style="font-size: 25px; font-weight: bold;">Name: </p>
+                    <p id="card-popup-course">Year 3 / Course </p>
+                    <p id="card-popup-role">Role: </p>
+                    <br>
+                    <p id="card-popup-manifesto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+
+                <span class="close" id="close-web">&times;</span>
+                
+            </div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Presidency</p>
+
+            <div class="wing-cards" id="pwing-box">
+                <!-- <div class="wing-card">
+                        <img src="" class="wing-pic">
+                        <div class="card-pic"></div>
+                        <div class="card-details">
+                            <p class="card-name">Raveen Prabhu</p>
+                            <p class="card-position">President</p>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">External Relations</p>
+
+            <div class="wing-cards" id="external-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Internal Relations</p>
+
+            <div class="wing-cards" id="internal-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Student Development</p>
+
+            <div class="wing-cards" id="stddev-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Student Life</p>
+
+            <div class="wing-cards" id="stdlife-box"></div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-details">
+            <!-- <p id="footer-logo">NUS Computing Club</p> -->
+            <img src="assets/footer_logo.png" id="footer-logo">
+            <div id="socials">
+                <a target="_blank" href="https://www.facebook.com/nuscomputing"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/NUSComputingClub"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://t.me/nuscomputingclub"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCIXFOIE140R6x0z05hgim0Q"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <!-- <a target="_blank" href="https://github.com/NUSComputingDev"><i class="fa-brands fa-github"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/company/nus-students-computing-club/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="mailto:connect@nuscomputing.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p id="disclaimers">
+                Copyright © NUS Students' Computing Club • <a style="text-decoration: none; color: white;"
+                    href="https://nuscomputing.com/privacy/">Privacy Policy</a>
+            </p>
+        </div>
+        <!-- <p id="feedback" style="line-height: 35px;">
+                Got feedback? Send it our way! <br> <a target="_blank" href="https://feedback.nuscomputing.com">feedback.nuscomputing.com</a>
+            </p> -->
+    </div>
+</body>
+
+</html>
