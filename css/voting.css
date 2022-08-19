@@ -148,6 +148,13 @@ img {
     line-height: 32px;
 }
 
+/* Segment Header- FAQ */
+#faq {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 20px 0;
+}
+
 
 #points-container {
     width: 80%;
