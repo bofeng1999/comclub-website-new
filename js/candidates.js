@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 "name": "Rungrawin Chowiwattana",
                 "role": "Director, Freshmen Orientation Project",
-                "course": "Year 3 / Computer Science",
+                "course": "Year 1 / Computer Science",
                 "manifesto": "Coming to Singapore just 3 weeks ago, without any friends and knowing how life was, I found the immense importance of all Freshmen Orientation Projects. I understand all the uneasiness as both a freshman and an international student. I am willing to help all the freshmen feel at ease in a new environment and reassure any worries they have. Not only will I create bonds between the freshmen, but also promote interactions between the freshmen and seniors while being the voice of international students.<br><br>Lastly, I value communities and interactions. My important life lessons always come from interacting with people. And I am sure that I will learn much more from SoC people who are so inspiring. So, adapting all the skills I gained from my management experience, I want to create a close-knit community where people are not afraid to voice their opinions and learn from each other."
             },
             {
