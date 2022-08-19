@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 popupName.innerHTML = name;
                 popupCourse.innerHTML = course;
-                popupRole.innerHTML = role;
+                popupRole.innerHTML = position;
                 popupManifesto.innerHTML = manifesto;
 
                 popup.style.display = "block";
