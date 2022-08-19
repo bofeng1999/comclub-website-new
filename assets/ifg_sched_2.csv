@@ -1,0 +1,60 @@
+Week,Date,Day,Time,Sport,Gender,Category,Venue
+1,13/8/2022,Saturday,0900-1600,Handball W,W,Day 1,MPSH5
+1,13/8/2022,Saturday,1300-1900,Valorant,U,Day 1,Com Lab
+1,13/8/2022,Saturday,1200-1900,Volleyball W,W,Prelim Grp B Day 1,UTSH2
+1,13/8/2022,Saturday,1200-1900,Volleyball W,W,Prelim Grp B Day 1,UTSH2
+1,14/8/2022,Sunday,0900-1600,Handball M,M,Day 1,MPSH5
+1,14/8/2022,Sunday,0900-1900,Contract Bridge,U,Prelim 1,MPSH4
+1,14/8/2022,Sunday,0900-1900,Tennis,U,Prelim Grp B Day 1,Tennis Courts 9-13 (5 courts)
+1,14/8/2022,Sunday,0900-1900,Volleyball M,M,Prelim Grp A (1 DAY),UTSH1
+1,14/8/2022,Sunday,0900-1200,Basketball M,M,Prelim Grp A,USC
+1,14/8/2022,Sunday,0900-1400,Touch Football,U,Prelims,Astro Field
+1,14/8/2022,Sunday,0900-1400,Touch Football,U,Prelims,Astro Field
+1,14/8/2022,Sunday,0900-1400,Touch Football,U,Prelims WWP,Astro Field
+2,20/8/2022,Saturday,1600 - 1930,Handball W,W,Day 2,MPSH5
+2,20/8/2022,Saturday,0900-1900,Tennis,U,Prelim Grp A&B Day 2 + Prelim Grp A&B Day 2 WWP,Tennis Courts 4-11 (8 courts)
+2,20/8/2022,Saturday,0900-1600,Tchoukball,U,Day 1,YNC Court
+2,20/8/2022,Saturday,1300-1900,Valorant,U,Day 2,Com Lab
+2,21/8/2022,Sunday,0900-1700,International Chess,U,1 Day,MPSH4
+2,21/8/2022,Sunday,1200-1900,Table Tennis,U,Prelim 1,MPSH2
+2,21/8/2022,Sunday,0900-1700,Tchoukball,U,Day 2,YNC Court
+2,21/8/2022,Sunday,0900-1500,Soccer M,M,Prelim,Astro Field
+2,21/8/2022,Sunday,1500-1900,Soccer M,M,Prelim WWP (4hrs),Astro Field
+3,27/8/2022,Saturday,1020-1900,Handball M,M,Day 2,MPSH5
+3,27/8/2022,Saturday,0900-1430,Floorball W,W,Prelims Grp A,MPSH6 
+3,27/8/2022,Saturday,0900-1200,Basketball M,M,Semi,UTSH2 
+3,27/8/2022,Saturday,0900-1700,LoL,U,Prelim,Com Seminar Room
+3,27/8/2022,Saturday, 1700-1800,Soccer M,M,Semi,Astro Field
+3,27/8/2022,Saturday,1800-1900,Soccer M,M,Semi WWP,Astro Field
+3,27/8/2022,Saturday,0900-1900,Tennis,U,Prelim Grp B Day 1 WWP,Tennis Courts 4-11 (8 courts)
+3,28/8/2022,Sunday, 0900-1300,LoL,U,Semi + Finals,COM Lab
+3,28/8/2022,Sunday,0900-1800,Badminton,U,Prelim 1,MPSH5
+3,28/8/2022,Sunday, 1400-1600,Table Tennis,U,Prelim 2,MPSH2 Table (4-7)
+3,28/8/2022,Sunday,1100-1300,Soccer M,M,Finals,Astro Field
+3,28/8/2022,Sunday,1300 - 1430,Touch Football,U,Semi + Final,Astro Field
+3,28/8/2022,Sunday,1430 - 1600,Touch Football,U,Semi + Final WWP,Astro Field
+4,3/9/2022,Saturday,1200-1900,Ultimate Frisbee,U,Prelims,Astro Field
+4,3/9/2022,Saturday,0900-1300,Badminton,U,Prelim 2,MPSH5
+4,3/9/2022,Saturday, 1500-1930,Basketball W,W,Prelims,USC Sports Hall
+4,3/9/2022,Saturday,0900-1600,Table Tennis,U,Semi,MPSH2 Table (4-7)
+4,3/9/2022,Saturday,0900-1900,Volleyball W,W,Prelims Grp B Day 2,UTSH1
+4,3/9/2022,Saturday,0900-1900,Tennis,U, Semi + WWP,Tennis Courts 4-11 (8 courts)
+4,3/9/2022,Saturday,0900-1900,Contract Bridge,U,Prelim 2 + Semi + Finals,MPSH4
+4,4/9/2022,Sunday,0900-1900,Floorball M,M,Prelim Grp B,MPSH6
+4,4/9/2022,Sunday,0900-1400,Badminton,U,Semi,MPSH5
+4,4/9/2022,Sunday,0900-1600,Table Tennis,U,Finals,"MPSH2 Table (4,5,6,10) "
+4,4/9/2022,Sunday,0900-1700,Dodgeball,U,Prelim Grp B,YNC Courts 
+4,4/9/2022,Sunday,0900-1900,Volleyball M + W,U,Semi,UTSH1
+4,4/9/2022,Sunday,1300-1600,Soccer M,M,WWP (M Finals),Astro Field
+5,10/9/2022,Saturday,1200-1600,Basketball W,W,Semi,UTSH1
+5,10/9/2022,Saturday,1600 - 1900,Dodgeball,U,Semi + Finals,UTSH1
+5,10/9/2022,Saturday,0900-1900,Floorball M + W,U,Semi + Finals,MPSH6
+5,10/9/2022,Saturday,0900-1600,Badminton,U,Finals,MPSH5
+5,10/9/2022,Saturday,0900-1900,Tennis,U,Finals + WWP,"Tennis Courts 4-6, 10-11 (5 courts)"
+5,10/9/2022,Saturday,1200 -1500,Ultimate Frisbee,U,Semis + Final,Astro Field
+5,10/9/2022,Saturday,1500 -1900,Ultimate Frisbee,U,Semis + Final WWP,Astro Field
+5,11/9/2022,Sunday,0900-1900,Reversi,U,1 Day,MPSH4
+5,11/9/2022,Sunday,0900-1900,Volleyball M + W,U,Finals,UTSH2
+5,11/9/2022,Sunday,1430-1900,Basketball W + M,U,Finals,USC
+5,11/9/2022,Sunday,1400-1500,Swimming M,M,1 Day,Indoor Pool
+5,11/9/2022,Sunday,1500-1600,Swimming W,W,1 Day,Indoor Pool

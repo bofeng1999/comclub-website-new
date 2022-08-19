@@ -42,10 +42,14 @@ EventCard.prototype.addCard = function(container) {
         "5": "#feca57",
     }
 
+    function isDigit(str) {
+        // if (typeof str != "string") return false
+        return !isNaN(str) && !isNaN(parseFloat(str))
+    }
+
     if ((this.logs['tags']).length > 0) {
         this.logs['tags'].forEach(tagName => {
             var tag = document.createElement('p')
-            tag.classList += 'event-tag'
     
             if (tagName == "men's") {
                 tag.style.backgroundColor = "#1dd1a1"
@@ -55,10 +59,16 @@ EventCard.prototype.addCard = function(container) {
                 tag.style.backgroundColor = "#5f27cd"
                 tag.style.color = "white"
                 tag.innerHTML = tagName
-            } else {
+            } else if (isDigit(tagName)) {
                 tag.style.backgroundColor = colorMap[tagName]
                 tag.innerHTML = "week " + tagName
+            } else {
+                tag.style.backgroundColor = "#686de0"
+                tag.style.color = "white"
+                tag.innerHTML = tagName
             }
+
+            tag.classList += 'event-tag'
     
             cardBtm.appendChild(tag)
         })
@@ -83,162 +93,210 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("App loaded")
 
     EVENTS_JSON = [
-        // {
-        //     "title": "Handball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "0900-1600",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "MPSH5"
-        // },
-        // {
-        //     "title": "Valorant",
-        //     "tags": 1,
-        //     "time": "1300-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "Com Lab"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "1200-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "UTSH2"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "women's",
-        //         1
-        //     ],
-        //     "time": "1200-1900",
-        //     "date": "Saturday, 13-8-2022",
-        //     "venue": "UTSH2"
-        // },
-        // {
-        //     "title": "Handball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1600",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "MPSH5"
-        // },
-        // {
-        //     "title": "Contract Bridge",
-        //     "tags": 1,
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "MPSH4"
-        // },
-        // {
-        //     "title": "Tennis",
-        //     "tags": 1,
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Tennis Courts 9-13 (5 courts)"
-        // },
-        // {
-        //     "title": "Volleyball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1900",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "UTSH1"
-        // },
-        // {
-        //     "title": "Basketball",
-        //     "tags": [
-        //         "men's",
-        //         1
-        //     ],
-        //     "time": "0900-1200",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "USC"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
-        // {
-        //     "title": "Touch Football",
-        //     "tags": 1,
-        //     "time": "0900-1400",
-        //     "date": "Sunday, 14-8-2022",
-        //     "venue": "Astro Field"
-        // },
+        {
+            "title": "Handball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "0900-1600",
+            "date": "Saturday, 13-8-2022",
+            "venue": "MPSH5"
+        },
+        {
+            "title": "Valorant",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "1300-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "Com Lab"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "1200-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "UTSH2"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "women's",
+                1
+            ],
+            "time": "1200-1900",
+            "date": "Saturday, 13-8-2022",
+            "venue": "UTSH2"
+        },
+        {
+            "title": "Handball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1600",
+            "date": "Sunday, 14-8-2022",
+            "venue": "MPSH5"
+        },
+        {
+            "title": "Contract Bridge",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "MPSH4"
+        },
+        {
+            "title": "Tennis",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Tennis Courts 9-13 (5 courts)"
+        },
+        {
+            "title": "Volleyball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1900",
+            "date": "Sunday, 14-8-2022",
+            "venue": "UTSH1"
+        },
+        {
+            "title": "Basketball",
+            "tags": [
+                "men's",
+                1
+            ],
+            "time": "0900-1200",
+            "date": "Sunday, 14-8-2022",
+            "venue": "USC"
+        },
+        {
+            "title": "Touch Football",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
+        {
+            "title": "Touch Football",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
+        {
+            "title": "Touch Football",
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
+            "time": "0900-1400",
+            "date": "Sunday, 14-8-2022",
+            "venue": "Astro Field"
+        },
         {
             "title": "Handball",
             "tags": [
                 "women's",
                 2
             ],
-            "time": "1600-1930",
+            "time": "1600 - 1930",
             "date": "Saturday, 20-8-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Tennis",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1900",
             "date": "Saturday, 20-8-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
             "title": "Tchoukball",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1600",
             "date": "Saturday, 20-8-2022",
             "venue": "YNC Court"
         },
         {
             "title": "Valorant",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "1300-1900",
             "date": "Saturday, 20-8-2022",
             "venue": "Com Lab"
         },
         {
             "title": "International Chess",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1700",
             "date": "Sunday, 21-8-2022",
             "venue": "MPSH4"
         },
         {
             "title": "Table Tennis",
-            "tags": 2,
-            "time": "0900-1900",
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
+            "time": "1200-1900",
             "date": "Sunday, 21-8-2022",
             "venue": "MPSH2"
         },
         {
             "title": "Tchoukball",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1700",
             "date": "Sunday, 21-8-2022",
             "venue": "YNC Court"
         },
         {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 2
@@ -248,17 +306,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "venue": "Astro Field"
         },
         {
-            "title": "Soccer",
-            "tags": [
-                "men's",
-                2
-            ],
-            "time": "0900-1500",
-            "date": "Sunday, 21-8-2022",
-            "venue": "Astro Field"
-        },
-        {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 2
@@ -273,7 +321,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "men's",
                 3
             ],
-            "time": "0900-1900",
+            "time": "1020-1900",
             "date": "Saturday, 27-8-2022",
             "venue": "MPSH5"
         },
@@ -298,24 +346,28 @@ document.addEventListener("DOMContentLoaded", () => {
             "venue": "UTSH2 "
         },
         {
-            "title": "LoL",
-            "tags": 3,
+            "title": "League of Legends",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
             "time": "0900-1700",
             "date": "Saturday, 27-8-2022",
-            "venue": "Com Lab"
+            "venue": "Com Seminar Room"
         },
         {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 3
             ],
-            "time": "1700-1800",
+            "time": " 1700-1800",
             "date": "Saturday, 27-8-2022",
             "venue": "Astro Field"
         },
         {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 3
@@ -326,34 +378,50 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             "title": "Tennis",
-            "tags": 3,
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
             "time": "0900-1900",
             "date": "Saturday, 27-8-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
-            "title": "LoL",
-            "tags": 3,
-            "time": "0900-1300",
+            "title": "League of Legends",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": " 0900-1300",
             "date": "Sunday, 28-8-2022",
             "venue": "COM Lab"
         },
         {
             "title": "Badminton",
-            "tags": 3,
-            "time": "0900-1900",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "0900-1800",
             "date": "Sunday, 28-8-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Table Tennis",
-            "tags": 3,
-            "time": "1400-1600",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": " 1400-1600",
             "date": "Sunday, 28-8-2022",
             "venue": "MPSH2 Table (4-7)"
         },
         {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 3
@@ -364,28 +432,44 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             "title": "Touch Football",
-            "tags": 3,
-            "time": "1300-1430",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "1300 - 1430",
             "date": "Sunday, 28-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Touch Football",
-            "tags": 3,
-            "time": "1430-1600",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "1430 - 1600",
             "date": "Sunday, 28-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "1200-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Badminton",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1300",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH5"
@@ -396,13 +480,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 "women's",
                 4
             ],
-            "time": "1500-1930",
+            "time": " 1500-1930",
             "date": "Saturday, 3-9-2022",
             "venue": "USC Sports Hall"
         },
         {
             "title": "Table Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1600",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH2 Table (4-7)"
@@ -419,14 +507,22 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             "title": "Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
             "title": "Contract Bridge",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH4"
@@ -442,28 +538,37 @@ document.addEventListener("DOMContentLoaded", () => {
             "venue": "MPSH6"
         },
         {
-            "title": "Floorball",
+            "title": "Badminton",
             "tags": [
                 "men's",
+                "women's",
                 4
             ],
-            "time": "0900-1900",
+            "time": "0900-1400",
             "date": "Sunday, 4-9-2022",
-            "venue": "MPSH6"
+            "venue": "MPSH5"
         },
         {
             "title": "Table Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1600",
             "date": "Sunday, 4-9-2022",
-            "venue": "MPSH2 Table (4,5,6,10)"
+            "venue": "MPSH2 Table (4,5,6,10) "
         },
         {
             "title": "Dodgeball",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1700",
             "date": "Sunday, 4-9-2022",
-            "venue": "YNC Courts"
+            "venue": "YNC Courts "
         },
         {
             "title": "Volleyball",
@@ -477,14 +582,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "venue": "UTSH1"
         },
         {
-            "title": "Ultimate Frisbee",
-            "tags": 4,
-            "time": "0900-1300",
-            "date": "Sunday, 4-9-2022",
-            "venue": "Astro Field"
-        },
-        {
-            "title": "Soccer",
+            "title": "Football",
             "tags": [
                 "men's",
                 4
@@ -499,16 +597,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 "women's",
                 5
             ],
-            "time": "1300-1600",
+            "time": "1200-1600",
             "date": "Saturday, 10-9-2022",
-            "venue": "UTSH2"
+            "venue": "UTSH1"
         },
         {
             "title": "Dodgeball",
-            "tags": 5,
-            "time": "1600-1900",
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
+            "time": "1600 - 1900",
             "date": "Saturday, 10-9-2022",
-            "venue": "UTSH2"
+            "venue": "UTSH1"
         },
         {
             "title": "Floorball",
@@ -523,35 +625,55 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             "title": "Badminton",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1600",
             "date": "Saturday, 10-9-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Tennis",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1900",
             "date": "Saturday, 10-9-2022",
-            "venue": "Tennis Courts 4-6,10-11 (5 courts)"
+            "venue": "Tennis Courts 4-6, 10-11 (5 courts)"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "1200 -1500",
             "date": "Saturday, 10-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "1500 -1900",
             "date": "Saturday, 10-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Reversi",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1900",
             "date": "Sunday, 11-9-2022",
             "venue": "MPSH4"
@@ -566,17 +688,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "time": "0900-1900",
             "date": "Sunday, 11-9-2022",
             "venue": "UTSH2"
-        },
-        {
-            "title": "Basketball",
-            "tags": [
-                "men's",
-                "women's",
-                5
-            ],
-            "time": "1430-1900",
-            "date": "Sunday, 11-9-2022",
-            "venue": "USC"
         },
         {
             "title": "Basketball",
@@ -608,21 +719,8 @@ document.addEventListener("DOMContentLoaded", () => {
             "time": "1500-1600",
             "date": "Sunday, 11-9-2022",
             "venue": "Indoor Pool"
-        },
-        {
-            "title": "Badminton",
-            "tags": 5,
-            "time": "0900-1600",
-            "date": "Sunday, 11-9-2022",
-            "venue": "MPSH 5"
         }
     ]
-
-    // function custom_sort(a, b) {
-        // return new Date(a.date).getTime() - new Date(b.date).getTime()
-    // }
-
-    // EVENTS_JSON.sort(custom_sort)
 
     const dateInfo = document.getElementById('date-info')
     const cardContainer = document.getElementById('cards-container')
@@ -630,16 +728,40 @@ document.addEventListener("DOMContentLoaded", () => {
     var today = new Date()
     var dayIdx = today.getDay()
     var dd = String(today.getDate()).padStart(2, '0')
-    var mm = String(today.getMonth() + 1).padStart(2, '0')
+    var mm = today.getMonth()
     var yyyy = today.getFullYear()
     
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    today = weekday[dayIdx] + ', ' + dd + '-' + mm + '-' + yyyy
-    dateInfo.innerHTML += `<span style="font-size: 24px; font-weight: bold; color: #4a69bd;">${today}</span>`
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
+    
+    today = weekday[dayIdx] + ', ' + dd + ' ' + months[mm] + ' ' + yyyy
+    dateInfo.innerHTML += `<span style="font-size: 23px; font-weight: bold; color: #4a69bd;">${today}</span>`
+
+    function isInThePast(date) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        return date < today;
+    }
+
+    var c = 0
 
     EVENTS_JSON.forEach(record => {
-        var card = new EventCard(record)
-        card.addCard(cardContainer)
-    });
+        var date = record['date'].split(",")[1].trim().split("-")
+        var yy = date[2]
+        var mm = date[1]
+        var dd = date[0].padStart(2, '0')
+        
+        var curDate = new Date(`${yy}-${mm.padStart(2, '0')}-${dd}`)
+        record['date'] = record['date'].split(",")[0] + ", " + `${dd} ${months[mm-1]} ${yy}`
+        
+        if (!isInThePast(curDate)) {
+            var card = new EventCard(record)
+            card.addCard(cardContainer)
+            c += 1
+        }
+    })
+
+    console.log(c)
 })
 

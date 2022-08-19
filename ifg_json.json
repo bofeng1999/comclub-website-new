@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "title": "Handball",
+            "title": "Handball W",
             "tags": [
                 "women's",
                 1
@@ -12,13 +12,17 @@
         },
         {
             "title": "Valorant",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "1300-1900",
             "date": "Saturday, 13-8-2022",
             "venue": "Com Lab"
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball W",
             "tags": [
                 "women's",
                 1
@@ -28,7 +32,7 @@
             "venue": "UTSH2"
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball W",
             "tags": [
                 "women's",
                 1
@@ -38,7 +42,7 @@
             "venue": "UTSH2"
         },
         {
-            "title": "Handball",
+            "title": "Handball M",
             "tags": [
                 "men's",
                 1
@@ -49,20 +53,28 @@
         },
         {
             "title": "Contract Bridge",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "0900-1900",
             "date": "Sunday, 14-8-2022",
             "venue": "MPSH4"
         },
         {
             "title": "Tennis",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "0900-1900",
             "date": "Sunday, 14-8-2022",
             "venue": "Tennis Courts 9-13 (5 courts)"
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball M",
             "tags": [
                 "men's",
                 1
@@ -72,7 +84,7 @@
             "venue": "UTSH1"
         },
         {
-            "title": "Basketball",
+            "title": "Basketball M",
             "tags": [
                 "men's",
                 1
@@ -83,79 +95,115 @@
         },
         {
             "title": "Touch Football",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "0900-1400",
             "date": "Sunday, 14-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Touch Football",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "0900-1400",
             "date": "Sunday, 14-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Touch Football",
-            "tags": 1,
+            "tags": [
+                "men's",
+                "women's",
+                1
+            ],
             "time": "0900-1400",
             "date": "Sunday, 14-8-2022",
             "venue": "Astro Field"
         },
         {
-            "title": "Handball",
+            "title": "Handball W",
             "tags": [
                 "women's",
                 2
             ],
-            "time": "1600-1930",
+            "time": "1600 - 1930",
             "date": "Saturday, 20-8-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Tennis",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1900",
             "date": "Saturday, 20-8-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
             "title": "Tchoukball",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1600",
             "date": "Saturday, 20-8-2022",
             "venue": "YNC Court"
         },
         {
             "title": "Valorant",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "1300-1900",
             "date": "Saturday, 20-8-2022",
             "venue": "Com Lab"
         },
         {
             "title": "International Chess",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1700",
             "date": "Sunday, 21-8-2022",
             "venue": "MPSH4"
         },
         {
             "title": "Table Tennis",
-            "tags": 2,
-            "time": "0900-1900",
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
+            "time": "1200-1900",
             "date": "Sunday, 21-8-2022",
             "venue": "MPSH2"
         },
         {
             "title": "Tchoukball",
-            "tags": 2,
+            "tags": [
+                "men's",
+                "women's",
+                2
+            ],
             "time": "0900-1700",
             "date": "Sunday, 21-8-2022",
             "venue": "YNC Court"
         },
         {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 2
@@ -165,17 +213,7 @@
             "venue": "Astro Field"
         },
         {
-            "title": "Soccer",
-            "tags": [
-                "men's",
-                2
-            ],
-            "time": "0900-1500",
-            "date": "Sunday, 21-8-2022",
-            "venue": "Astro Field"
-        },
-        {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 2
@@ -185,17 +223,17 @@
             "venue": "Astro Field"
         },
         {
-            "title": "Handball",
+            "title": "Handball M",
             "tags": [
                 "men's",
                 3
             ],
-            "time": "0900-1900",
+            "time": "1020-1900",
             "date": "Saturday, 27-8-2022",
             "venue": "MPSH5"
         },
         {
-            "title": "Floorball",
+            "title": "Floorball W",
             "tags": [
                 "women's",
                 3
@@ -205,7 +243,7 @@
             "venue": "MPSH6 "
         },
         {
-            "title": "Basketball",
+            "title": "Basketball M",
             "tags": [
                 "men's",
                 3
@@ -216,23 +254,27 @@
         },
         {
             "title": "LoL",
-            "tags": 3,
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
             "time": "0900-1700",
             "date": "Saturday, 27-8-2022",
-            "venue": "Com Lab"
+            "venue": "Com Seminar Room"
         },
         {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 3
             ],
-            "time": "1700-1800",
+            "time": " 1700-1800",
             "date": "Saturday, 27-8-2022",
             "venue": "Astro Field"
         },
         {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 3
@@ -243,34 +285,50 @@
         },
         {
             "title": "Tennis",
-            "tags": 3,
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
             "time": "0900-1900",
             "date": "Saturday, 27-8-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
             "title": "LoL",
-            "tags": 3,
-            "time": "0900-1300",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": " 0900-1300",
             "date": "Sunday, 28-8-2022",
             "venue": "COM Lab"
         },
         {
             "title": "Badminton",
-            "tags": 3,
-            "time": "0900-1900",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "0900-1800",
             "date": "Sunday, 28-8-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Table Tennis",
-            "tags": 3,
-            "time": "1400-1600",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": " 1400-1600",
             "date": "Sunday, 28-8-2022",
             "venue": "MPSH2 Table (4-7)"
         },
         {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 3
@@ -281,51 +339,71 @@
         },
         {
             "title": "Touch Football",
-            "tags": 3,
-            "time": "1300-1430",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "1300 - 1430",
             "date": "Sunday, 28-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Touch Football",
-            "tags": 3,
-            "time": "1430-1600",
+            "tags": [
+                "men's",
+                "women's",
+                3
+            ],
+            "time": "1430 - 1600",
             "date": "Sunday, 28-8-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "1200-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Badminton",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1300",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH5"
         },
         {
-            "title": "Basketball",
+            "title": "Basketball W",
             "tags": [
                 "women's",
                 4
             ],
-            "time": "1500-1930",
+            "time": " 1500-1930",
             "date": "Saturday, 3-9-2022",
             "venue": "USC Sports Hall"
         },
         {
             "title": "Table Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1600",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH2 Table (4-7)"
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball W",
             "tags": [
                 "women's",
                 4
@@ -336,20 +414,28 @@
         },
         {
             "title": "Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "Tennis Courts 4-11 (8 courts)"
         },
         {
             "title": "Contract Bridge",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1900",
             "date": "Saturday, 3-9-2022",
             "venue": "MPSH4"
         },
         {
-            "title": "Floorball",
+            "title": "Floorball M",
             "tags": [
                 "men's",
                 4
@@ -359,31 +445,40 @@
             "venue": "MPSH6"
         },
         {
-            "title": "Floorball",
+            "title": "Badminton",
             "tags": [
                 "men's",
+                "women's",
                 4
             ],
-            "time": "0900-1900",
+            "time": "0900-1400",
             "date": "Sunday, 4-9-2022",
-            "venue": "MPSH6"
+            "venue": "MPSH5"
         },
         {
             "title": "Table Tennis",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1600",
             "date": "Sunday, 4-9-2022",
-            "venue": "MPSH2 Table (4,5,6,10)"
+            "venue": "MPSH2 Table (4,5,6,10) "
         },
         {
             "title": "Dodgeball",
-            "tags": 4,
+            "tags": [
+                "men's",
+                "women's",
+                4
+            ],
             "time": "0900-1700",
             "date": "Sunday, 4-9-2022",
-            "venue": "YNC Courts"
+            "venue": "YNC Courts "
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball M + W",
             "tags": [
                 "men's",
                 "women's",
@@ -394,14 +489,7 @@
             "venue": "UTSH1"
         },
         {
-            "title": "Ultimate Frisbee",
-            "tags": 4,
-            "time": "0900-1300",
-            "date": "Sunday, 4-9-2022",
-            "venue": "Astro Field"
-        },
-        {
-            "title": "Soccer",
+            "title": "Soccer M",
             "tags": [
                 "men's",
                 4
@@ -411,24 +499,28 @@
             "venue": "Astro Field"
         },
         {
-            "title": "Basketball",
+            "title": "Basketball W",
             "tags": [
                 "women's",
                 5
             ],
-            "time": "1300-1600",
+            "time": "1200-1600",
             "date": "Saturday, 10-9-2022",
-            "venue": "UTSH2"
+            "venue": "UTSH1"
         },
         {
             "title": "Dodgeball",
-            "tags": 5,
-            "time": "1600-1900",
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
+            "time": "1600 - 1900",
             "date": "Saturday, 10-9-2022",
-            "venue": "UTSH2"
+            "venue": "UTSH1"
         },
         {
-            "title": "Floorball",
+            "title": "Floorball M + W",
             "tags": [
                 "men's",
                 "women's",
@@ -440,41 +532,61 @@
         },
         {
             "title": "Badminton",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1600",
             "date": "Saturday, 10-9-2022",
             "venue": "MPSH5"
         },
         {
             "title": "Tennis",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1900",
             "date": "Saturday, 10-9-2022",
-            "venue": "Tennis Courts 4-6,10-11 (5 courts)"
+            "venue": "Tennis Courts 4-6, 10-11 (5 courts)"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "1200 -1500",
             "date": "Saturday, 10-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Ultimate Frisbee",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "1500 -1900",
             "date": "Saturday, 10-9-2022",
             "venue": "Astro Field"
         },
         {
             "title": "Reversi",
-            "tags": 5,
+            "tags": [
+                "men's",
+                "women's",
+                5
+            ],
             "time": "0900-1900",
             "date": "Sunday, 11-9-2022",
             "venue": "MPSH4"
         },
         {
-            "title": "Volleyball",
+            "title": "Volleyball M + W",
             "tags": [
                 "men's",
                 "women's",
@@ -485,7 +597,7 @@
             "venue": "UTSH2"
         },
         {
-            "title": "Basketball",
+            "title": "Basketball W + M",
             "tags": [
                 "men's",
                 "women's",
@@ -496,18 +608,7 @@
             "venue": "USC"
         },
         {
-            "title": "Basketball",
-            "tags": [
-                "men's",
-                "women's",
-                5
-            ],
-            "time": "1430-1900",
-            "date": "Sunday, 11-9-2022",
-            "venue": "USC"
-        },
-        {
-            "title": "Swimming",
+            "title": "Swimming M",
             "tags": [
                 "men's",
                 5
@@ -517,7 +618,7 @@
             "venue": "Indoor Pool"
         },
         {
-            "title": "Swimming",
+            "title": "Swimming W",
             "tags": [
                 "women's",
                 5
@@ -525,13 +626,6 @@
             "time": "1500-1600",
             "date": "Sunday, 11-9-2022",
             "venue": "Indoor Pool"
-        },
-        {
-            "title": "Badminton",
-            "tags": 5,
-            "time": "0900-1600",
-            "date": "Sunday, 11-9-2022",
-            "venue": "MPSH 5"
         }
     ]
 }
