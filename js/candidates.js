@@ -297,7 +297,6 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         }
 
-
         container.append(card)
     }
 
