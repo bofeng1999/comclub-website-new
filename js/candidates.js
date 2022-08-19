@@ -289,14 +289,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 popupName.innerHTML = name;
                 popupCourse.innerHTML = course;
-                popupRole.innerHTML = role;
+                popupRole.innerHTML = position;
                 popupManifesto.innerHTML = manifesto;
 
                 popup.style.display = "block";
                 popup.scrollTop = 0;
             })
         }
-
 
         container.append(card)
     }
