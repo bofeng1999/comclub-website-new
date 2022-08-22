@@ -192,13 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 "role": "NUSSU EXCO Representative",
                 "course": "Year 3 / Computer Science",
                 "manifesto": "Hi everyone! I'm Yat Bun, a 3rd year Computer Science student and the current Union President. I am once again running for the position of NUSSU EXCO Representative. Within the Union, I will as the rerun as the President of the Union. Through my current term, I discovered areas of improvements and things to change. However, it took me a significant portion of my term to fully understand and devise solutions for them. Moreover, implementing them will definitely take more than a term in office. Therefore, I look to continue in this position to finish what I have started. During my time in Union, I have also managed to identify other capable members that are as dedicated and driven. Having had experience working in NUSSU, I am confident that we would be able to form a good team that will be able to achieve what we set out to do."
-            },
-            {
-                "name": "Neil Gupta",
-                "role": "NUSSU EXCO Representative",
-                "course": "Year 4 / Computer Science",
-                "manifesto": "Hey! I am Neil, A year 4 Computer Science Student and I am running for the NUSSU EXCO representative position in the upcoming 25th Management Committee Elections under Computing Club. I have 2 goals in mind for the 2 roles that I wish to fulfil in my term should you choose to vote for me. My first goal is through that of a representative for Computing Club, in which I want to ensure that Computing Club students’ voices are heard throughout NUS. The second role I want to pursue is that of the Welfare Secretary and my goal for this role is to enable all NUS students to adjust back to pre-covid university times. Through my role as a welfare secretary I wish to work together with NUS Offices to ensure a smooth transition through this period."
             }
+            //,
+            // {
+            //     "name": "Neil Gupta",
+            //     "role": "NUSSU EXCO Representative",
+            //     "course": "Year 4 / Computer Science",
+            //     "manifesto": "Hey! I am Neil, A year 4 Computer Science Student and I am running for the NUSSU EXCO representative position in the upcoming 25th Management Committee Elections under Computing Club. I have 2 goals in mind for the 2 roles that I wish to fulfil in my term should you choose to vote for me. My first goal is through that of a representative for Computing Club, in which I want to ensure that Computing Club students’ voices are heard throughout NUS. The second role I want to pursue is that of the Welfare Secretary and my goal for this role is to enable all NUS students to adjust back to pre-covid university times. Through my role as a welfare secretary I wish to work together with NUS Offices to ensure a smooth transition through this period."
+            // }
         ]
     }
 
