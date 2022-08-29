@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/about.css">
-        <script src="js/about.js"></script>
-        <title>About | NUS Students' Computing Club</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/about.js"></script>
+    <title>About | NUS Students' Computing Club</title>
+</head>
 
-        <!-- <div id="fop-banner">
+<body>
+
+    <!-- <div id="fop-banner">
             <p>
                 Incoming freshman?
                 Check out <span><a style="font-weight: bold; color: black;" href="freshmen.html">nuscomputing.com/freshmen.html</a></span>
             </p>
             <button id="toggle-fop-banner">Got it!</button>
         </div> -->
-        <div id="fop-banner">
+    <div id="fop-banner">
+        <p id="fop-para" style="text-align:center;">
+            <b>Ongoing Events</b><br>
+            <!-- <u style="font-weight: bold;">Ongoing Events</u><br> -->
+            <a style="color: black;" href="elections.html">Annual Elections</a>: The External Elections results are out!
+            <!-- The annual elections are ongoing now! Find out more <span><a style="font-weight: bold; color: black;" href="elections.html">here</a></span>! -->
+            <br>
+            <a style="color: black;" href="ifg.html">Inter Faculty Games</a>: View the IFG schedule now!
+        </p>
+        <button id="toggle-fop-banner">Got it!</button>
+    </div>
+
+    <!-- <div id="ifg-banner">
             <p style="text-align:center">
-                The annual elections are ongoing now! Find out more <span><a style="font-weight: bold; color: black;" href="elections.html">here</a></span>!
+                IFG is ongoing now! Find out more about the schedule <span><a style="font-weight: bold; color: black;" href="ifg.html">here</a></span>!
             </p>
-            <button id="toggle-fop-banner">Got it!</button>
-        </div>
+            <button id="toggle-ifg-banner">Got it!</button>
+        </div> -->
 
-        <div id="navbar">
-            <img src="assets/logo.png" width="40" id="logo">
-            <div id="options">
-                <p><a href="index.html">Home</a></p>
-                <p><a  style="color: #feca57;" href="about.html">About</a></p>
-                <p><a target="_blank" href="https://feedback.nuscomputing.com">Feedback</a></p>
-                <p><a target="_blank" href="https://www.flickr.com/photos/137141057@N04/albums/">Photos</a></p>
+    <div id="navbar">
+        <img src="assets/logo.png" width="40" id="logo">
+        <div id="options">
+            <p><a href="index.html">Home</a></p>
+            <p><a style="color: #feca57;" href="about.html">About</a></p>
+            <p><a target="_blank" href="https://feedback.nuscomputing.com">Feedback</a></p>
+            <p><a target="_blank" href="https://www.flickr.com/photos/137141057@N04/albums/">Photos</a></p>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <img src="assets/banner.png" alt="" id="hero-img">
+        <img src="assets/hero_soccat.png" alt="" id="hero-img-dup">
+        <!-- <img id="hero-img"> -->
+        <!-- <div id="hero-img"></div> -->
+
+        <p id="about-para">
+            The NUS Students' Computing Club, colloquially referred to as the <b style="color: #6a89cc;">Computing
+                Club</b>,
+            is a constituent club under the NUS Students' Union (NUSSU).
+            It comprises and represents all undergraduates pursuing a degree in NUS School of Computing.
+        </p>
+
+        <p id="segment-header">Our Past</p>
+        <p id="segment-para">
+            Established when NUS School of Computing gained independence as a separate faculty in 1998,
+            the NUS Students' Computing Club is the official faculty club and sole union representative
+            of all undergraduates in NUS School of Computing. The club has since been taking care of the
+            student life in NUS School of Computing by organising various events and activities to promote campus
+            vibrancy.
+            We safeguard the interest of our undergraduates, ensure their voices are heard, provide welfare,
+            and form the bridge between our students and the school.
+        </p>
+
+        <p id="segment-header">Our Mission</p>
+        <p id="segment-para">
+            To be the voice of the students,
+            ensure their holistic well being,
+            and bridge gaps between them and the School.
+        </p>
+
+        <p id="segment-header">Vision</p>
+        <p id="segment-para">
+            To continually support our faculty, to build close-knit relationships
+            among Computing Club members past and present,
+            and drive the charge for campus vibrancy.
+        </p>
+    </div>
+
+    <div id="footer">
+        <div id="footer-details">
+            <!-- <p id="footer-logo">NUS Computing Club</p> -->
+            <img src="assets/footer_logo.png" id="footer-logo">
+            <div id="socials">
+                <a target="_blank" href="https://www.facebook.com/nuscomputing"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/NUSComputingClub"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://t.me/nuscomputingclub"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCIXFOIE140R6x0z05hgim0Q"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <!-- <a target="_blank" href="https://github.com/NUSComputingDev"><i class="fa-brands fa-github"></i></a> -->
+                <a target="_blank" href="https://www.linkedin.com/company/nus-students-computing-club/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="mailto:connect@nuscomputing.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
-        </div>
-
-        <div id="main-container">
-            <img src="assets/banner.png" alt="" id="hero-img">
-            <img src="assets/hero_soccat.png" alt="" id="hero-img-dup">
-            <!-- <img id="hero-img"> -->
-            <!-- <div id="hero-img"></div> -->
-
-            <p id="about-para">
-                The NUS Students' Computing Club, colloquially referred to as the <b style="color: #6a89cc;">Computing Club</b>, 
-                is a constituent club under the NUS Students' Union (NUSSU). 
-                It comprises and represents all undergraduates pursuing a degree in NUS School of Computing.
-            </p>
-
-            <p id="segment-header">Our Past</p>
-            <p id="segment-para">
-                Established when NUS School of Computing gained independence as a separate faculty in 1998, 
-                the NUS Students' Computing Club is the official faculty club and sole union representative 
-                of all undergraduates in NUS School of Computing. The club has since been taking care of the 
-                student life in NUS School of Computing by organising various events and activities to promote campus vibrancy. 
-                We safeguard the interest of our undergraduates, ensure their voices are heard, provide welfare, 
-                and form the bridge between our students and the school.
-            </p>
-
-            <p id="segment-header">Our Mission</p>
-            <p id="segment-para">
-                To be the voice of the students, 
-                ensure their holistic well being,
-                and bridge gaps between them and the School.
-            </p>
-
-            <p id="segment-header">Vision</p>
-            <p id="segment-para">
-                To continually support our faculty, to build close-knit relationships 
-                among Computing Club members past and present, 
-                and drive the charge for campus vibrancy.
+            <p id="disclaimers">
+                Copyright © NUS Students' Computing Club • <a style="text-decoration: none; color: white;"
+                    href="https://nuscomputing.com/privacy/">Privacy Policy</a>
             </p>
         </div>
-
-        <div id="footer">
-            <div id="footer-details">
-                <!-- <p id="footer-logo">NUS Computing Club</p> -->
-                <img src="assets/footer_logo.png" id="footer-logo">
-                <div id="socials">
-                    <a target="_blank" href="https://www.facebook.com/nuscomputing"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/NUSComputingClub"><i class="fa-brands fa-instagram"></i></a>
-                    <a target="_blank" href="https://t.me/nuscomputingclub"><i class="fa-brands fa-telegram"></i></a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCIXFOIE140R6x0z05hgim0Q"><i class="fa-brands fa-youtube"></i></a>
-                    <!-- <a target="_blank" href="https://github.com/NUSComputingDev"><i class="fa-brands fa-github"></i></a> -->
-                    <a target="_blank" href="https://www.linkedin.com/company/nus-students-computing-club/"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a target="_blank" href="mailto:connect@nuscomputing.com"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-                <p id="disclaimers">
-                    Copyright © NUS Students' Computing Club • <a style="text-decoration: none; color: white;" href="https://nuscomputing.com/privacy/">Privacy Policy</a>
-                </p>
-            </div>
-            <!-- <p id="feedback" style="line-height: 35px;">
+        <!-- <p id="feedback" style="line-height: 35px;">
                 Got feedback? Send it our way! <br> <a target="_blank" href="https://feedback.nuscomputing.com">feedback.nuscomputing.com</a>
             </p> -->
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
 
 <!-- <p id="header-stmt">

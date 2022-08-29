@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ html, body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 img {
@@ -28,15 +30,15 @@ img {
 #fop-banner {
     background-color: #feca57;
     width: 100%;
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 #fop-banner p {
-	width: 80%;
+    width: 80%;
     font-size: 14px;
     color: rgb(43, 43, 43);
     margin: 0 auto;
@@ -63,56 +65,20 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
-#ifg-banner {
-    background-color: #feca57;
-    width: 100%;
-	height: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-}
-
-#ifg-banner p {
-	width: 80%;
-    font-size: 14px;
-    color: rgb(43, 43, 43);
-    margin: 0 auto;
-}
-
-#ifg-banner button {
-    font-size: 14px;
-    font-family: Karla, Avenir Next, sans-serif;
-    border-radius: 7px;
-    border: 1px black solid;
-    color: black;
-    margin: 10px auto 0 auto;
-    width: 60px;
-    height: 20px;
-    background-color: none;
-    background: none;
-    cursor: pointer;
-}
-
-#ifg-banner button:hover {
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-
 #navbar {
     width: 100%;
     height: 90px;
-    background-color: #4a69bd;
+    background-color: none;
+    background: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    background-size: 120px 120px;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px); */
 }
 
 #navbar #logo {
-    margin: auto 5%;
+    margin: auto 3%;
     font-size: 20px;
     font-weight: bold;
 }
@@ -121,12 +87,12 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto 5% auto 0;
+    margin: auto 4% auto 0;
 }
 
 #navbar #options p a {
     text-decoration: none;
-    color: white;
+    color: rgb(74, 74, 74);
     cursor: pointer;
 }
 
@@ -137,8 +103,8 @@ img {
 }
 
 #navbar #options p {
-    margin: 0 15px;
-    font-size: 19px;
+    margin: 0 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -150,7 +116,7 @@ img {
     height: 650px;
     background-color: #4a69bd;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     z-index: -1000;
 
     display: flex;
@@ -189,7 +155,7 @@ img {
     height: 150px;
     background-color: whitesmoke;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
-    clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%); 
+    clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
     margin-top: -150px;
     z-index: 1000;
 }
@@ -199,7 +165,8 @@ img {
     width: 100%;
     height: auto;
     padding: 30px 0;
-    background-color: whitesmoke; 
+    /* background-color: whitesmoke; */
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px); */
 }
 
 #header-stmt {
@@ -212,15 +179,16 @@ img {
 }
 
 #people-container #header-stmt i {
-    vertical-align: middle; 
-    font-size: 17px; 
-    padding-left: 2px; 
+    vertical-align: middle;
+    font-size: 17px;
+    padding-left: 2px;
 }
 
 #header-para {
     line-height: 30px;
     font-size: 20px;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 #header-para span {
@@ -228,8 +196,18 @@ img {
     color: #5f27cd;
 }
 
+#wing-para {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#wing-para span {
+    font-weight: bold;
+    color: #5f27cd;
+}
+
 .wing-cont {
-    width: 85%;
+    width: 90%;
     height: auto;
     margin: 10px 0;
     margin-left: 5%;
@@ -254,7 +232,7 @@ img {
 
 .wing-card {
     width: 300px;
-    height: 400px;
+    height: 450px;
     background-color: white;
     margin: 10px 50px 10px 0;
     border-radius: 7px;
@@ -295,6 +273,26 @@ img {
     padding: 0;
 }
 
+.wing-card .nominee-div {
+    height: 50px;
+    background-color: #3c6382;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wing-card .nominee-div .nominee-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+}
+
 .wing-card .card-details .card-name {
     font-size: 24px;
     font-weight: bold;
@@ -311,9 +309,79 @@ img {
     color: white;
 }
 
+/* Popup container */
+/* The Modal (background) */
+.popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.popup-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    display: flex;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.popup-content img {
+    width: 90%;
+    /* height: 100px; */
+    /* background-color: lightpink; */
+    overflow: hidden;
+}
+
+.popup-content-half {
+    /* display: inline-block; */
+    flex: 1;
+    /* width: 50%; */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#close-mobile {
+    display: none;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------------------- */
 
-#footer {   
+#footer {
     white-space: 100%;
     min-height: 200px;
     height: auto;
@@ -356,6 +424,8 @@ img {
     transition: 0.5s;
 }
 
+
+
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 1160px) {
@@ -372,7 +442,7 @@ img {
         font-weight: bold;
         padding-bottom: 20px;
     }
-    
+
     #hero-para {
         line-height: 32px;
         font-size: 19px;
@@ -393,6 +463,7 @@ img {
     #footer #footer-logo {
         height: 60px;
     }
+
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -400,7 +471,7 @@ img {
 @media (max-width: 450px) {
     #fop-banner {
         height: 75px;
-        display: flex;    
+        display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -409,11 +480,11 @@ img {
     #fop-banner p {
         padding: 0;
         margin: 5px auto;
-	}
+    }
 
     #fop-banner button {
-		margin: 5px auto;
-	}
+        margin: 5px auto;
+    }
 
     #navbar {
         height: 120px;
@@ -460,7 +531,7 @@ img {
         text-align: center;
         padding-bottom: 20px;
     }
-    
+
     #hero-para {
         line-height: 32px;
         font-size: 17px;
@@ -500,4 +571,31 @@ img {
     #footer #disclaimers {
         font-size: 13px;
     }
+
+    .popup {
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        /* width: 95%; */
+        overflow: scroll;
+        /* Black w/ opacity */
+    }
+
+    .popup-content {
+        display: block;
+        text-align: center;
+    }
+
+    .popup-content img {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    #close-mobile {
+        display: block;
+    }
+
+    #close-web {
+        display: none;
+    }
+    
 }
