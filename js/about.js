@@ -5,4 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleFOPButton.addEventListener("click", () => {
         fopBanner.style.display = "none"
     })
+
+    
+    const toggleIFGButton = document.getElementById('toggle-ifg-banner')
+    const ifgBanner = document.getElementById('ifg-banner')
+
+    toggleIFGButton.addEventListener("click", () => {
+        ifgBanner.style.display = "none"
+    })
 })
