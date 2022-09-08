@@ -9,28 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8663eb90fc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/externalresults.css">
-    <!-- <script src="js/candidates.js"></script> -->
-
-    <!-- Credits to: https://www.webslesson.info/2017/04/csv-file-to-html-table-using-ajax-jquery.html -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="css/internalresults.css">
+    <script src="js/internalresults.js"></script>
+    <title>Home | NUS Students' Computing Club</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
-
-    <title>Home | NUS Students' Computing Club</title>
-
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> -->
 </head>
 
 <script>
-    console.log("Reading Management_Committee_Candidates.csv")
-    // This reads the Management_Committee_Candidates CSV
+    // This reads the unfilled_positions CSV
     $(document).ready(function () {
         $.ajax({
             // "assets\elections\results\external\Management_Committee_Candidates.csv"
-            url: "assets/elections/results/external/Management_Committee_Candidates.csv",
+            url: "assets/elections/results/internal/unfilled_positions.csv",
             dataType: "text",
             success: function (data) {
                 var csv_data = data.split(/\r?\n|\r/);
@@ -50,46 +43,20 @@
                     table_data += '</tr>';
                 }
                 table_data += '</table>';
-                $('#management_committee_candidates').html(table_data);
+                $('#unfilled_positions').html(table_data);
             }
         });
-    });
-</script>
-
-<script>
-    // This reads the NUSSU_Rep_Candidates CSV
-    console.log("Reading NUSSU_Rep_Candidates.csv")
-    $(document).ready(function () {
-        // $('#load_data_nussu_rep').click(function () {
-        $.ajax({
-            url: "assets/elections/results/external/NUSSU_Rep_Candidates.csv",
-            dataType: "text",
-            success: function (data) {
-                var csv_data = data.split(/\r?\n|\r/);
-                var table_data = '<table class="table table-bordered table-striped">';
-                for (var count = 0; count < csv_data.length; count++) {
-                    var cell_data = csv_data[count].split(",");
-                    table_data += '<tr>';
-                    for (var cell_count = 0; cell_count < cell_data.length; cell_count++) {
-                        if (count === 0) {
-                            table_data += '<th>' + cell_data[cell_count] + '</th>';
-                        }
-                        else {
-                            table_data += '<td>' + cell_data[cell_count] + '</td>';
-                        }
-                    }
-                    table_data += '</tr>';
-                }
-                table_data += '</table>';
-                $('#nussu_rep_candidates').html(table_data);
-            }
-        });
-        // });
-
     });
 </script>
 
 <body>
+    <!-- <div id="fop-banner">
+            <p style="text-align:center">
+                Want to join us? Election nominations are open NOW! Find out more <span><a style="font-weight: bold; color: black;" href="elections.html">here</a></span>!
+            </p>
+            <button id="toggle-fop-banner">Got it!</button>
+        </div> -->
+
 
     <div id="navbar">
         <a href="https://nuscomputing.com" width="40" id="logo"><img src="assets/black-logo.png" width="40"
@@ -98,75 +65,84 @@
             <p><a href="elections.html">Home</a></p>
             <p><a href="manifesto.html">Manifesto</a></p>
             <p><a href="roles.html">Roles</a></p>
-            <p><a href="voting.html">Voting</a></p>
+            <p><a href="externalresults.html">Results</a></p>
         </div>
     </div>
 
+    <!-- <div id="hero">
+            <div id="hero-text">
+                <p id="hero-stmt">NUS Students' <br> Computing Club</p>
+                <p id="hero-para">
+                    We aim to be the voice of the students, <br>
+                    ensure their holistic well being, <br>
+                    and bridge gaps between them and the school.
+                </p>
+            </div>
+
+            <img src="assets/hero_soccat.png">
+        </div>
+
+        <div id="filler"></div> -->
+
     <div id="people-container">
         <p id="header-stmt">
-            External Results
+            Internal Elections
             <i style="color: #395B9B;" class="fa-solid fa-circle"></i>
             <i style="color: #93c6c3;" class="fa-solid fa-circle"></i>
             <i style="color: #92CEFC;" class="fa-solid fa-circle"></i>
         </p>
-        <p id="header-para">
-            External Elections for the 25th Management Committee and 44th NUSSU EXCO Representative was held from 24 to 26
-            August 2022.<br><br>
+        <p id="header-para">The Internal Elections for the NUS Students' Computing Club 25th Management Committee was
+            held from 31 August to 3 September 2022. In the Internal Elections, the 28 elected MC members ran for 30
+            positions, and 23 positions were filled.</p>
+        <br>
+        <p id="header-para">Introducing the <span>25th Management Committee</span>.</p>
 
-            <em>Total valid votes casted</em> refer to the sum of all For and Against votes.<br><br>
 
-            <em>% For votes</em> were calculated by taking the number of For votes over the <em>Total valid votes casted</em>.
-            Abstained votes were not included in the calculation.<br><br>
-
-            For Vote of Confidence, candidates who obtained at least 50% of <em>For votes</em> will be deemed to pass
-            the
-            External Elections.<br><br>
-        </p>
-
-        <!-- RESULTS OF MANAGEMENT COMMITTEE CANDIDATES -->
         <div class="wing-cont">
-            <p class="wing-name">Management Committee Candidates</p>
-            <p id="wing-para">
-                There were 28 candidates running for the External Elections. As such, a Vote of Confidence was conducted
-                for the Management Committee Elections.<br><br>
+            <p class="wing-name">Presidency</p>
 
-                Elected members will proceed to the Internal Elections, where the roles will be decided.<br><br>
-
-                A total of 493 votes were casted. Here are the results and the votes breakdown for each
-                candidate.<br><br>
-            </p>
-            <div>
-                <div class="table-responsive">
-                    <div id="management_committee_candidates"></div>
-                </div>
-            </div>
+            <div class="wing-cards" id="pwing-box"> </div>
         </div>
 
+        <div class="wing-cont">
+            <p class="wing-name">External Relations</p>
 
-        <!-- PAGE BREAK -->
+            <div class="wing-cards" id="external-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Internal Relations</p>
+
+            <div class="wing-cards" id="internal-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Student Development</p>
+
+            <div class="wing-cards" id="stddev-box"></div>
+        </div>
+
+        <div class="wing-cont">
+            <p class="wing-name">Student Life</p>
+
+            <div class="wing-cards" id="stdlife-box"></div>
+        </div>
+        <br>
+
         <p id="header-stmt">
             <i style="color: #395B9B;" class="fa-solid fa-circle"></i>
             <i style="color: #93c6c3;" class="fa-solid fa-circle"></i>
             <i style="color: #92CEFC;" class="fa-solid fa-circle"></i>
             <br>
+            <br>
+        <p id="header-para">A total of 7 positions were not filled up during the Internal Elections. Hence, the 25th
+            Management Committee shall co-opt members to fill up the remaining positions.</p>
         </p>
-
-        <!-- RESULTS OF NUSSU EXCO REP CANDIDATES -->
         <div class="wing-cont">
-            <p class="wing-name">NUSSU EXCO Representative Candidates</p>
-            <p id="wing-para">
-                There were 2 candidates running for the External Elections. As such, a Vote of Confidence was conducted
-                for the NUSSU EXCO Representative elections.<br><br>
-
-                A total of 493 votes were casted. Here are the results and the votes breakdown for each candidate.<br><br>
-            </p>
-
-            <div id="External Hackathons" class="tabcontent">
-                <div>
-                    <!-- <div class="container"> -->
-                    <div class="table-responsive">
-                        <div id="nussu_rep_candidates"></div>
-                    </div>
+            <div>
+                <!-- <div class="container"> -->
+                <div class="table-responsive">
+                    <div id="unfilled_positions"></div>
                 </div>
             </div>
         </div>
