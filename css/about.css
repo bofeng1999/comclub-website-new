@@ -28,7 +28,7 @@ img {
 #fop-banner {
     background-color: #feca57;
     width: 100%;
-	height: 100px;
+	height: 120px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -259,6 +259,23 @@ img {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 @media (max-width: 450px) {
+    #fop-banner {
+        height: 90px;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #fop-banner p {
+        padding: 0;
+        margin: 5px auto;
+	}
+
+    #fop-banner button {
+		margin: 5px auto;
+	}
+    
     #navbar {
         height: 120px;
         flex-direction: column;
@@ -340,7 +357,4 @@ img {
         font-size: 13px;
     }
 
-    #fop-banner p {
-        width: 95%;
-    }
 }

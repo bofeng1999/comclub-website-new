@@ -42,10 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "role": "Director, Marketing",
             },
             {
-                "name": "Chew Yew Keng",
-                "role": "Deputy Director, Marketing (Sponsorships)",
-            },
-            {
                 "name": "Varsha Ramkumar",
                 "role": "Deputy Director, Marketing (Merchandise)",
             },
@@ -66,10 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
             {
                 "name": "Tan Sin Chez, Jaron",
                 "role": "Deputy Director, Sports",
-            },
-            {
-                "name": "Seah Zhi Han Mervyn",
-                "role": "Director, Welfare",
             },
             {
                 "name": "Ting Yong Shen Amos",
