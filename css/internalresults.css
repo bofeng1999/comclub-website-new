@@ -186,8 +186,10 @@ img {
 
 #header-para {
     line-height: 30px;
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 5%;
+    padding-right: 5%;
+    font-weight: lighter;
 }
 
 #header-para span {
