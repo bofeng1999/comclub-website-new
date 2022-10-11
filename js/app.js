@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "url": "https://www.linkedin.com/in/javianngzh/"
             },
             {
-                "name": "Saitama Lim",
+                "name": "Fion Lim",
                 "role": "Director, Marketing",
                 "url": "https://www.linkedin.com/in/fion-lim-66571324a/"
             },
