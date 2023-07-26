@@ -4,19 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const PEOPLE = {
         "Presidency": [
             {
-                "name": "Tan Kian Lin",
+                "name": "Matthew Tan",
                 "role": "Returning Officer",
-                "url": "https://www.linkedin.com/in/kianlintan"
+                "url": "https://www.linkedin.com/in/matthew-simon-tan-b2987423b/"
             },
             {
-                "name": "Cheang Xue Ting",
+                "name": "Celine Chung",
                 "role": "Elections Officer",
-                "url": "http://linkedin.com/in/cheangxueting"
+                "url": "https://www.linkedin.com/in/celinechungyy"
             },
             {
-                "name": "Bryan Ong",
+                "name": "Tricia Goh",
                 "role": "Elections Officer",
-                "url": "https://www.linkedin.com/in/bryan-ong-wx"
+                "url": "https://www.linkedin.com/in/triciagxh/"
             }
         ]
     }
