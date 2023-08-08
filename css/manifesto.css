@@ -52,7 +52,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto 5% auto 0;
+    margin: auto 4% auto 0;
 }
 
 #navbar #options p a {
@@ -68,8 +68,8 @@ img {
 }
 
 #navbar #options p {
-    margin: 0 15px;
-    font-size: 19px;
+    margin: 0 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 

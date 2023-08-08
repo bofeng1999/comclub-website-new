@@ -47,7 +47,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto 5% auto 0;
+    margin: auto 4% auto 0;
 }
 
 #navbar #options p a {
