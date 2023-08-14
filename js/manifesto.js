@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Tricia Goh",
                 "role": "Elections Officer",
                 "url": "https://www.linkedin.com/in/triciagxh/"
+            },
+            {
+                "name": "Summer Thia",
+                "role": "Elections Helper",
+                "url": "https://www.linkedin.com/in/summerthia/"
+
             }
         ]
     }
