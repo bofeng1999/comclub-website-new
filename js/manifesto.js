@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Summer Thia",
                 "role": "Elections Helper",
                 "url": "https://www.linkedin.com/in/summerthia/"
-
             }
         ]
     }
