@@ -86,10 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         "Internal Relations": [
             {
-                "name": "Goh Pei Shan, Tricia",
+                "name": "Lek Kai Hin Joshua",
                 "role": "Vice President",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hi, I'm Tricia, and I am running for Vice President Internal Relations. Having been in the 24th management committee as the FOP Director, I have grown attached to SoC and would like to continue to serve the computing student body. I will strive to instil a sense of pride and identity in the computing student body. Through listening to feedback, the internal relations wing will provide welfare and sports events tailor-made with Computing students in mind. Besides tangible welfare such as welfare packs and refreshments, we will provide free and fun workshops such as clay making etc. for students to unwind from their hectic computing workload. For Sports, we will strive to ensure that our student-athletes are given the support they need to excel. Furthermore, allow computing students to step out of their comfort zone to try out sports through our sports clinics. Vote Tricia for VPIR, be Happy :)"
+                "course": "Year 1 / Information Systems",
+                "manifesto": "2 main reasons why you should vote for me:<br>Firstly, I’m pushing for a digital platform for your academic needs. The platform is essentially a large-scale online library for NUS students to access every module’s content, reviews and detailed guides. This will help prevent situations like (1)choosing the wrong module and (2)falling behind in class. (3)It can help you better prepare for exams by having access to past year questions and lectures, and seniors notes or cheat sheets. Think of the platform as a blend of NUSMODS and Canvas, with all resources stored under one centralised system.<br><br>Secondly, you can expect the internal relations department to alleviate your stress. Other than the usual care packages, buzzfeed personality type quizzes will be curated and released weekly for your entertainment. It also serves as an opportunity to improve student engagement."
             },
             {
                 "name": "Ivan Chin Yue Ze",
@@ -124,18 +124,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "As members of NUS Computing, we have the ability to create a positive impact in society through using technology to benefit the marginalised and those with disabilities. There’s so much we can do, whether it’s developing easy-to-use apps to make lives easier for our ageing population, simplifying processes for frontline and social workers, or educating the next generation on programming-related topics.<br><br>My goal is to create projects and pathways where SoC students can tap on and showcase their unique skillsets, foster a culture of inclusivity, and help our school continue to forge meaningful and lasting partnerships with various organisations whose values match our own.<br><br>Combining service and skills, towards a better community, together."
             },
             {
-                "name": "Tabriz Pahlavi",
-                "role": "Deputy Director, Academic Liaison",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "What does academics in SoC entail? Academics in SoC to me is one that is enriching - it is challenging yourself, value-adding to yourself, improving yourself and ultimately emerging a better version of yourself. This is the experience I hope to deliver to the students of SoC as the Vice President of Academic Liaison. <br><br>In order to do so, I strive to organize activities like hackathons and software engineering projects that will help students better themselves. These activities should not only better our students on a technical level, but also ignite their passion for technology.<br><br>I also believe academic life in SoC should not be a lonely one. I will bring students together and facilitate the forging of friendships between them. While my activities aim to nurture students, helping students grow together an aspect that I will focus on."
+                "name": "Timothy Soon",
+                "role": "Director, Rag & Flag",
+                "course": "Year 1 / Computer Science",
+                "manifesto": "I am very grateful to the rag and flag programme. It gave me the opportunity to meet new friends in SoC, to familiarise myself with school, and to meet seniors whose advice proved invaluable. I am campaigning for the role of director as I believe that we can, together, create even greater opportunities for the next batch of incoming freshmen. My goal as director is to expand the scale and size of Rag and Flag next year, while mantaining a welcoming, trouble-free experience for both the committee and freshmen, allowing everybody to give their absolute best and take the programme to the next level."
             }
         ],
         "Student Life": [
             {
-                "name": "Andre Heng Zhe Hau",
+                "name": "Ng Le Xuan",
                 "role": "Vice President",
                 "course": "Year 2 / Information Systems",
-                "manifesto": "Hello Friends of SOC, I am Andre Heng a Year 2 Information Systems Student, and I will be running for Vice President (Student Life) in the Computing Club 25th MC.<br><br>Having been part of the FOW 2022 O’Comm, I had the wonderful opportunity to interact and connect with many wonderful and interesting people from SOC. This lovely experience has ignited my desire to serve the Computing Community within NUS.<br><br>I am filled with gratitude and thanks for those who have given me the opportunity to share, learn and grow.<br><br>Below you will find my Mission, Vision and Value for the Student Life wing.<br><br>Mission: Create Opportunities for all SOC members to bond and connect.<br>Vision: To create a strong and united SOC family.<br>Value: Be brave.<br><br>With that, I humbly seek your vote of confidence to be given the opportunity to become your Vice president of Student Life."
+                "manifesto": "My vision for the Computing Club revolves around establishing an inclusive platform where every member has the opportunity to connect and bond with one another. Drawing from my experience as the househead in FSC and as the secretary and OGL in FOW, I have personally observed an issue that arose during these events—numerous freshmen found themselves unable to partake due to insufficient manpower for the camps. Moving forward, I am determined to address this challenge by enhancing the planning process and refining the recruitment of OGLs.<br><br>With this in mind, I firmly believe that my background of working behind the scenes with computing club’s activities before like FLAG, FSC and FOW equips me with a more comprehensive perspective. This perspective will serve as a valuable compass as I strive to bring about meaningful change to the lives of students within the computing community."
             },
             {
                 "name": "Pearlyn Liu Xiaoxuan",
@@ -176,10 +176,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         "NUSSU EXCO Representative": [
             {
-                "name": "Raveen Prahbu",
+                "name": "Ong Hao Yang",
                 "role": "NUSSU EXCO Representative",
-                "course": "Year 3 / Computer Science",
-                "manifesto": "Hi everyone, Raveen here! Over the past 2 years in Computing Club, as the Director of FOP in Year 1 & The President of the 24th Management Committee in Year 2, I have had the pleasure of interacting with all of you through our events and initiatives. I also had the opportunity to work closely with the school management to address some of the issues you may have experienced. As I approach the end of my term, I want to use all my experience and knowledge to continue serving the Computing population, by representing you and being your voice at NUSSU. I will ensure that you are fairly represented in the union and your interests are safeguarded.<br>\“Always putting you first!\” This is not just a slogan, but also my <b>PROMISE</b> to all of you."
+                "course": "Year 2 / Business Analytics",
+                "manifesto": "I am dedicated to serve the SoC population and ensure the welfare of computing students are taken care of. As an exco rep, I will give SoC a voice in NUSSU policies and decisions. I promise to exercise my due diligence and responsibility in pushing for policies that will benefit computing students and resolve issues where necessary. Need someone who takes action, takes care but most importantly listens? Vote for me and let me represent you."
             },
             {
                 "name": "Lee Yat Bun",
