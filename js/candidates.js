@@ -98,10 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "Hey, I am Ivan Chin, a Y2 Business Analytics Undergraduate, and I will be running for Vice President (Internal Relations) for the 25th Management Committee. I am someone who serves with his heart and is passionate about giving back to communities. With my experience as an IFG Computing Captain, along with being the Vice Project Director of Freshmen Orientation Week 2022, I believe I am capable in managing as well as setting the direction for the internal relations cell. If elected, I am committed to giving my 100% to make your lives in computing better. Your feedback is important to me and I am willing to push for initiatives to cater to what the student population needs and wants."
             },
             {
-                "name": "He Ruoqing, Vivien",
-                "role": "Director, Sports",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hello! I am Vivien, a year 2 computer science student, with a passion for sports. As NUS has given me the opportunity to try a variety of sports, I want to give back by planning many more sports events for SOC students. I would like to make our faculty more active and vibrant, and give everyone the opportunity to make new friends, through sports. Especially since everyone is now returning to school, and many have missed the chance to participate in school events, it is important to plan more events that can reach out to all students, enriching student life and also our physical wellbeing! I will do my best to plan and liaise with everyone to roll out some enjoyable events and I hope everyone will get the opportunity to try out some new sports and also meet some new people!"
+                "name": "Koo Jay-Lynn",
+                "role": "Director, Welfare",
+                "course": "Year 2 / Information Systems",
+                "manifesto": "I am running to be your Welfare Director! Being part of Welfare subcomm last AY, I was involved in many welfare activities, ranging from exam welfare packing and distribution to Wellness Carnival. The Welfare Cell’s mission to spread joy and support students’ mental health resonates deeply with me, which is why I would like to take up this role. I am friendly and approachable, so you should not fear approaching me with your issues and concerns. As an empathetic individual, I will listen actively to the concerns and needs of Computing Club members and take new suggestions and ideas into account when coming up with Welfare activities. Furthermore, as someone who values teamwork and working with others, I am committed to working and collaborating with the next Welfare subcommittee and the 26th Management Committee to bring bigger and better things to SoC and create a caring community for all!"
             },
             {
                 "name": "Tan Sin Chez, Jaron",
