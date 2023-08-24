@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const PEOPLE = {
         "Presidency": [
             {
-                "name": "Tan Matthew Simon Castaneda",
+                "name": "Ng Zheng Han Javian",
                 "role": "President",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Engagement and inclusivity are buzzwords we hear all the time.<br><br>But all this cannot be put in place without the proper internal systems.<br><br>My overall objectives during my term as president would be achieved in 2 phases. The first phase would be to optimize/automate internal processes. This will include tapping on our existing student body, both to provide novice programmers with simple projects that they could achieve, and to increase their engagement with Computing Club. The second will be to continue the inter-cell communications already established by the outgoing 24th MC.<br><br>The next phase would be to streamline initiatives to target the student’s needs more. Any initiative should be one that was demanded by the student population, even implicitly. On the inclusivity aspect, I believe that social events on a large scale should not stop at orientation. Stay tuned for what is going to be my pet event : <b>discoTECH</b>!!!!"
+                "course": "Year 2 / Business Analytics",
+                "manifesto": "Vote for me as the President of the NUS Computing Club for a year of innovation, collaboration, and growth!<br><br>As the deputy director of publicity during the last year, I have fervently contributed to the club's success by developing a sense of community and bringing together and encouraging students' interest and engagement in the club. As President, I'll take this commitment to the next level. My experience guarantees a seamless transfer, allowing us to hit the ground running.<br><br>I'm committed to increasing the effect of our club by planning exciting events that combines theory and experience. I will be sure to magnify the voices of our members and ensure that every idea is heard and recognised with my demonstrated skills in cooperation and effective communication."
             },
             {
                 "name": "Jirafe Aditya Vijay",
@@ -78,12 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "I am Fion, currently a year 2 BZA student and running for Vice President (External Relations). I am running for VPER because I want to foster more meaningful student engagement and bolster partnerships, be it with other companies, alumni or other organisations. Through my experience with FOPs in 2022, I realized that there was more to be done to guard against companies or external organisations whom may take advantage of students’ information. Hence I decided to run for VPER to ensure the selection of organisations who had expectations and values aligned more closely to SOC’s. Moreover, through thoughtful publicity and establishment of SOC’s image I believe that partnering with external organisations which can bring SOC students greater opportunity is achievable, eliminating the need to sought after companies which may not meet the current needs of SOC students. Ultimately, I envision to better fulfill these needs and create a better SOC."
             },
             {
-                "name": "Ng Zheng Han Javian",
-                "role": "Vice President",
-                "course": "Year 1 / Business Analytics",
-                "manifesto": "My name is Javian Ng, a year 1 Business Analytics student with a passion to lead, and to build audiences through specific narratives and public interest.<br><br>Having the experience of leading teams and networking with companies, I believe that I can best serve this club and the student body as Vice President of External Relations.<br><ul style=\"padding-left:1em\"><li>Converge and promote student’s interest and involvement in Computing Club activities while portraying a positive image.</li><li>Promote the existence of Computing Club by enhancing our brand, attracting more sponsorships which translates to increased welfare to be used for giveaways as publicity material.</li><li>To enforce better outreach and create a stronger graduating community. </li><li>Initiate new partnerships with different stakeholders which also contributes to the value add of Computing Club in different dimensions.</li><li>Engage in public media through our various activities or conferences to broaden our online outreach and enhance our online presence.</li><ul style=\"padding-left:1em\"><li>Creating a strong sense of identity</li><li>Promoting student interest</li><li>Forging bonds with corporate</li></ul>"
-            },
-            {
                 "name": "Micaella Deniega Ilagan",
                 "role": "Director, Publicity",
                 "course": "Year 2 / Information Systems",
@@ -124,10 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "I'm Jody Tng, a Y2 Business Analytics Student and I will be running for Vice-President (Student Development) in the upcoming elections.<br><br>If elected, my plans for the term are:<br><br><ol style=\"padding-left:1em\"><li>Continue working on the existing projects, and in particular aim for double gold awards for Rag and Flag 2023.</li><li>Continue the development on new initiatives such as Pilot projects from the Academic Liaison cell.</li><li> Connect with the student populace and encourage more students to take part in our initiatives. </li><li> Coordinate and work with the various publicity heads to have a centralised platform to publicise the student development cell initiatives. </li></ol><br>As the Flag Project Director in the previous academic year, with the leadership and decision-making skills picked up, I believe this makes me an ideal candidate. <br><br>Thank you for reading my manifesto and feel free to contact me to ask questions about my plans via telegram @jodytng."
             },
             {
-                "name": "Ong Jin Xiang, Bryan",
-                "role": "Director, Academic Liaison",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Vision: Creating a bridge between students and academic opportunities & development<br>Key Focus Areas: Academic opportunities & development<br><br>Manifesto:<br><ol style=\"padding-left:1em\"><li><b>Ease of access to academic opportunities</b><br>I aim to create a system / platform for students to readily look up any upcoming academic events like hackathons / workshops and career talks at a single glance. This will supplement the traditional email blasts</li><li>Internship Opportunities<br>I pledge to do my upmost best to bring in tech experts & hiring managers from top companies. This provides students with opportunities to put themselves out there.</li><li>Lifehack / Careerlaunch pad<br>I will be focusing on the student’s development in these 2 events. For career launchpad, I will ideate through a rigid curriculum that educates students on the necessary skills for the computing industry. For Lifehack, I will continue the hackathon with a new theme, exciting competition & better ideas.</li></ol>"
+                "name": "Nathan Loo Enping",
+                "role": "Director, Community Engagement",
+                "course": "Year 1 / Computer Science",
+                "manifesto": "As members of NUS Computing, we have the ability to create a positive impact in society through using technology to benefit the marginalised and those with disabilities. There’s so much we can do, whether it’s developing easy-to-use apps to make lives easier for our ageing population, simplifying processes for frontline and social workers, or educating the next generation on programming-related topics.<br><br>My goal is to create projects and pathways where SoC students can tap on and showcase their unique skillsets, foster a culture of inclusivity, and help our school continue to forge meaningful and lasting partnerships with various organisations whose values match our own.<br><br>Combining service and skills, towards a better community, together."
             },
             {
                 "name": "Tabriz Pahlavi",
