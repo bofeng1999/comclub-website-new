@@ -112,10 +112,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         "Student Development": [
             {
-                "name": "Jody Tng Jin Zi",
+                "name": "Martin Ng",
                 "role": "Vice President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I'm Jody Tng, a Y2 Business Analytics Student and I will be running for Vice-President (Student Development) in the upcoming elections.<br><br>If elected, my plans for the term are:<br><br><ol style=\"padding-left:1em\"><li>Continue working on the existing projects, and in particular aim for double gold awards for Rag and Flag 2023.</li><li>Continue the development on new initiatives such as Pilot projects from the Academic Liaison cell.</li><li> Connect with the student populace and encourage more students to take part in our initiatives. </li><li> Coordinate and work with the various publicity heads to have a centralised platform to publicise the student development cell initiatives. </li></ol><br>As the Flag Project Director in the previous academic year, with the leadership and decision-making skills picked up, I believe this makes me an ideal candidate. <br><br>Thank you for reading my manifesto and feel free to contact me to ask questions about my plans via telegram @jodytng."
+                "course": "Year 1 / Business Analytics",
+                "manifesto": "While us students strive to succeed academically, it is also essential that we do not fail at other aspects of our development. I aim to emphasize the importance of finding the time in our busy lives to stop and reflect, rather than being in an endless pursuit of our own self-gain. Establishing and celebrating a community that can uplift one another will undoubtedly result in a holistic environment for everyone to thrive in."
             },
             {
                 "name": "Nathan Loo Enping",
@@ -128,6 +128,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 "role": "Director, Rag & Flag",
                 "course": "Year 1 / Computer Science",
                 "manifesto": "I am very grateful to the rag and flag programme. It gave me the opportunity to meet new friends in SoC, to familiarise myself with school, and to meet seniors whose advice proved invaluable. I am campaigning for the role of director as I believe that we can, together, create even greater opportunities for the next batch of incoming freshmen. My goal as director is to expand the scale and size of Rag and Flag next year, while mantaining a welcoming, trouble-free experience for both the committee and freshmen, allowing everybody to give their absolute best and take the programme to the next level."
+            },
+            {
+                 "name": "Kong Shi Ting",
+                 "role": "Director, Rag & Flag",
+                 "course": "Year 1 / Business Analytics",
+                 "manifesto": "Being part of ComRag 2023, I have experienced firsthand the change that people can make when they come together to create, give back and elevate. Rag and Flag is so much more than just a orientation activity or a charity project. It is a vibrant community, a lifeline of support, and a family that extends beyond our time together.<br><br>With a history of successfully managing and executing similar charity events, I am excited to see how I can leverage on my own strengths and skillsets to contribute to the Computing Club. My goal is to continue this cycle of Receiving and Giving, and forge a path lined with the same opportunities I had for the next batch of freshmen to fulfil their potential as a collective force for good.<br><br>Let's expand this community and aim for Gold 2024."
             }
         ],
         "Student Life": [
@@ -138,34 +144,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "My vision for the Computing Club revolves around establishing an inclusive platform where every member has the opportunity to connect and bond with one another. Drawing from my experience as the househead in FSC and as the secretary and OGL in FOW, I have personally observed an issue that arose during these events—numerous freshmen found themselves unable to partake due to insufficient manpower for the camps. Moving forward, I am determined to address this challenge by enhancing the planning process and refining the recruitment of OGLs.<br><br>With this in mind, I firmly believe that my background of working behind the scenes with computing club’s activities before like FLAG, FSC and FOW equips me with a more comprehensive perspective. This perspective will serve as a valuable compass as I strive to bring about meaningful change to the lives of students within the computing community."
             },
             {
-                "name": "Pearlyn Liu Xiaoxuan",
+                "name": "Sean Kevin Dias",
                 "role": "Vice President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I am Pearlyn and I was the RAG Vice-Project Director of AY21/22. I was also involved in the Freshmen Social Camp as a House-head and the Freshmen Orientation Week as an Orientation Group Leader. Through the orientation programs, I have witnessed many of the freshmen who seemed hesitant to open up to others when they first entered the School of Computing, and it was very heartening to see that most of them still make the effort to keep in contact with their new friends and make the most of their student life. I really enjoyed being able to help bond with the first-year students and my meaningful interactions with them motivated me to continue contributing to the school by playing a supportive role in the student life of SoC as a Vice President. Vote for PEARLyn and let the world be your oyster!"
+                "course": "Year 1 / Computer Science",
+                "manifesto": "I am a driven individual who wants to ensure the best for everyone in SoC. I will use the platform given to sure that student life will be engaging and bring people together. Vote for Sean!"
             },
             {
-                "name": "Chew Yew Keng",
-                "role": "Vice President",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hello! I am Yew Keng. I am a Year 2 Computer Science Student, intent on running for the role of Vice President (Student Life).<br><br>I am passionate in organising meaningful and engaging events for my peers; and I will be priviledged to be given the opportunity to do the same for my fellow computing peers! I have prior experience in organising similar events as I have taken up similar roles such as Vice Project Director of BASH, and OGL in eFOP, whilst in NUS. I was also a House Captain in my JC’s Student Council, and the Head of School Spirit in my Secondary School.<br><br>My aspiration is to provide all of you opportunities to be involved in our Student Life events, especially major events such as Orientation, as the SoC freshmen population increases.<br><br>Do me the honours and vote me in to be your next Vice President (Student Life)!"
-            },
-            {
-                "name": "Cheng Deren",
-                "role": "Vice President",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hi, I am Cheng Deren, a Y2 Computer Science. I am running for the Vice President (Student Life) of the 25th Management Committee of CompClub.<br><br>With my vast experiences in planning and executing all 3 computing camps, my vision is to make SoC:<br><ul style=\"padding-left:1em\"><li>a place where students staying off-campus need not worry about having no friends nor feeling lonely,</li><li>a place where foreign students feel welcomed and accepted, thus integrating into the computing community,</li><li>a place that celebrates vibrant, fun and enjoyable student lives</li></ul><br>Want to see all these come true, vote me, Deren Cheng for The Real Change. Vote COMrade Cheng for a CompClub change."
-            },
-            {
-                "name": "Seah Zhi Han Mervyn",
-                "role": "Vice President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I am Mervyn Seah, a Year 2 Business Analytics Undergraduate and I am running for Vice President (Student Life) this election.<br><br>VP (SL) has two main priorities -- the Student Engagement and Freshman Orientation Programmes cells. Not only does VP (SL) ensure the events are executed successfully, but they also provide assistance to the Project Directors and their respective Organising Committees. VP (SL) works closely with the MC members and SoC’s advisors in caring for SoC students’ well-being as well. As a member of Computing Club, VP (SL) is crucial in the SoC community and family.<br><br>Running for this role is personal to me, having participated in many of the programmes planned by the Student Life cell. With both first-hand experience in these events and past leadership experiences, I believe that I can excel and am a prime candidate for the VP (SL) position."
-            },
-            {
-                "name": "Rungrawin Chowiwattana",
+                "name": "Raeeda Ibnat Hossain",
                 "role": "Director, Freshmen Orientation Project",
                 "course": "Year 1 / Computer Science",
-                "manifesto": "Coming to Singapore just 3 weeks ago, without any friends and knowing how life was, I found the immense importance of all Freshmen Orientation Projects. I understand all the uneasiness as both a freshman and an international student. I am willing to help all the freshmen feel at ease in a new environment and reassure any worries they have. Not only will I create bonds between the freshmen, but also promote interactions between the freshmen and seniors while being the voice of international students.<br><br>Lastly, I value communities and interactions. My important life lessons always come from interacting with people. And I am sure that I will learn much more from SoC people who are so inspiring. So, adapting all the skills I gained from my management experience, I want to create a close-knit community where people are not afraid to voice their opinions and learn from each other."
+                "manifesto": "Hi y'all, my name is Raeeda and I'm a year 1 CS major running to be the next Freshman Orientation Programme Director.<br><br>As the FOPD, I plan to empower the subcommittees under me to explore the depths of their own creativity and come up with highly innovative, and engaging programmes to welcome countless incoming students into Computing. More than a basic introduction to our faculty, I would aim to integrate freshmen into the vibrant culture of SoC through the multiple events.<br><br>Additionally, I want all seniors involved to be able to reminisce on and relive their own FOP experience, while also making it better (if they so choose). I promise to be an understanding and accountable middleman between all stakeholders, be it faculty, subcomm or sponsors.<br><br>But if you don't know me at all, why would you vote for me? So here's more info: I'm from NUS College, staying on campus at Cinnamon College at UTown. I can be most commonly found hanging with NUSC friends (so many SoC...) struggling to process 1231S or at the Terrace, making new SoC friends everyday. Next time you see me (I have Very red hair...), do stop me for a quick chat’ Whether or not we cross paths physically, you can always find me on telegram and/or instagram at @fluoraescence. I will reply almost instantly, 24/7!<br><br>I'm looking forward to working with what I can already foresee as a wonderfully passionate Management Comm, if you decide I'm the right person for the job! :)"
             },
             {
                 "name": "Raman Gupta",
