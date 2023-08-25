@@ -10,58 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "Vote for me as the President of the NUS Computing Club for a year of innovation, collaboration, and growth!<br><br>As the deputy director of publicity during the last year, I have fervently contributed to the club's success by developing a sense of community and bringing together and encouraging students' interest and engagement in the club. As President, I'll take this commitment to the next level. My experience guarantees a seamless transfer, allowing us to hit the ground running.<br><br>I'm committed to increasing the effect of our club by planning exciting events that combines theory and experience. I will be sure to magnify the voices of our members and ensure that every idea is heard and recognised with my demonstrated skills in cooperation and effective communication."
             },
             {
-                "name": "Jirafe Aditya Vijay",
-                "role": "President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I am Aditya Jirafe, a Year 2 Business Analytics student running for the role of President for Computing Club’s 25th Management Committee. I am a committed and driven person who wants to help provide the Club with the support, resources, and guidance to enact changes that serve in the best interest of SoC. If elected, I aim to foster a closer relationship within the Club and student body to build the Club as an entity of trust and a listening ear. I strive to deepen the communication between the two, so that the Club’s initiatives are better targeted. My experience as the Project Director of Freshmen Orientation Week 2022 has honed my ability to see the big picture and liaise with various stakeholders to agree on a common goal, a skill essential for the President of Computing Club. Thank you."
-            },
-            {
-                "name": "Nguyen Tan Long",
-                "role": "President",
-                "course": "Year 1 / Computer Science",
-                "manifesto": "Life as a computing student is not a walk in the park. Since I struggled with certain decisions in my academic journey, I understand the frustrations of difficulties students might face. Yet, I always wondered if there was someone who could help, someone out there who could get the professors to listen to our feedback. As a student who has been impressed by the computing area and as a leader involved in several dynamic programs, I will do my best to nurture, inspire, transform, and most importantly, prepare our students to be technically-grounded leaders and innovators. I strive to bridge the gap between students and the school, enhance the university life experience, and open up more opportunities beyond the classroom. Please join me on this remarkable journey to bring the School of Computing (SoC) and NUS to the highest heights of glory through our academic and non-academic endeavors."
-            },
-            {
-                "name": "Varsha Ramkumar",
-                "role": "General Secretary",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I am Varsha Ramkumar, a Year 2 Business Analytics student running for the role of General Secretary.<br><br>Learning from my experience as a Freshmen Orientation Week Secretary, I would strive to lead by the 3 Cs, <b>communication</b>, <b>collaboration</b>, and <b>community</b>. I would ensure greater communication and collaboration across cells and wings by providing them opportunities to foster and build strong relationships. In turn, this will help to build a strong bonded community that  provides a safe environment for everyone to voice out their opinions. This allows for a more efficient and open team who respects one another and allowing us to move together in our goals as one Computing Club.  With Computing Club playing a huge role in enriching a SOC students' life, this is important to ensure that the overall operation and conduct of the club runs smoothly."
-            },
-            {
                 "name": "Thia Jean Shuen, Summer",
                 "role": "General Secretary",
                 "course": "Year 2 / Business Analytics",
                 "manifesto": "I'm Summer Thia, a Y2 Bza student running for the role of General Secretary. Previously the FOP Deputy Director in Computing Club, I am extremely grateful for the growth, fun and learning experience I have had in the past year. My constant involvement in the club has very much resulted in me growing an attachment towards it and I cannot imagine myself living a Uni life without being a part of it, without contributing towards it . Being more familiar with the workings of Computing Club MC, I strive to utilize my experience and passion to make the club a comfortable and cohesive home and to provide a fulfilling Uni experience to Computing students. I aim to be a reliable and trustworthy companion to the President and the MC, to facilitate the smooth operations of the club and to be the reason why MC members are motivated to fulfill their responsibilities."
-            },
-            {
-                "name": "Chung Yen Yee, Celine",
-                "role": "Deputy General Secretary",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I'm Celine Chung and I hope to empower the 25th MC to serve SoC at its best! I am running for Deputy General Secretary because I believe that people are happiest and most motivated when they feel a sense of belonging to the clubs that they serve (not to mention, of course, my undying love for admin work and unparalleled organizational skills;-)). As Deputy General Secretary, I hope to 1) enable all MC members to find community in Com Club, making every member feel like they have a place in the club, and 2) support them in their duties by keeping all behind-the-scenes work running smoothly so that they can focus on their key responsibilities! So… vote for me for a happy, healthy, well-fed Com Club family that does their best for SoC (and more importantly, to let me fulfill my admin work fantasies)."
-            },
-            {
-                "name": "Tan Qin Xu",
-                "role": "Operations Secretary",
-                "course": "Year 1 / Computer Science",
-                "manifesto": "With the gradual easing of Covid-19 measures, NUS witnesses its student life resuming back to pre-covid times. From the return of physical Freshman Orientation Week to the annual Rag and Flag having its first live audience in years, there are no doubt more exciting events planned for the school in the academic year.<br><br>My job as the Operations Secretary is to serve as the backbone of all the events held by the club, anchoring down resources needed to make the events successful ones, as well as the liaison between the different projects and the school staff.<br><br>I will work to ensure that every event is well-planned out and the welfare of the student population is not compromised due to our oversight. I will go down to the details of every event to ensure that they are well backed up with contingency plans.<br><br>My priority is people. My priority is you."
-            },
-            {
-                "name": "Merrick Neo Kai Jie",
-                "role": "Operations Secretary",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hi! My name is Merrick and I am running for the position of Operations Secretary. The Operations Secretary role being a new position introduced this year, I felt that my prior experience as the Director of Student Engagement in the 24th MC would serve me well as to enhance the operational capabilities of the club. As the Operations Secretary, my goal would be to strengthen the logistical and operational needs of the club and effectively support the various initiatives the 25th MC will bring to the student body.<br><br>Do remember to give me your as I promise to do my utmost to bolster the club's processes and enrich the student experience in SoC."
-            },
-            {
-                "name": "Ting Yong Shen Amos",
-                "role": "Operations Secretary",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hi, I am Amos Ting, Y2 Computer Science student and I will be running for role of Operations Secretary in the upcoming 25th Management Committee Elections. With my extensive background in logistics from my experience being the Freshman Orientation Week Logistics Head, I believe that I am the best person to take on this role. Being a logistics head has allowed me to understand the physical and administrative processes behind logistics in SOC. This will undoubtedly be useful when trying to coordinate and establish a Standard Operating Procedure for SOC logistics, which is one of main responsibilities of the Operations Secretary. My experience with the management of logistics and people will also come in handy for the inventorising and maintenance of the SOC store which is also a main responsibility of the Operations Secretary. So vote for Amos, and you will be Famous. Then together we can be Famous Amos!"
-            },
-            {
-                "name": "Li Bo Feng Derrick",
-                "role": "Tech Lead",
-                "course": "Year 2 / Computer Science",
-                "manifesto": "Hi! My name is Derrick, and I am running for the position of Tech Lead in NUS Computing Club. I served  as the Vice Project Director for Freshmen Social Camp for School of Computing and as Deputy Director of  student relations for NUS StartIT. Through my participation in Orbital and other case competitions, I am  confident that I would be able to leverage on my skillsets and experiences to contribute to the role of Tech  Lead.<br><br>As Tech Lead, I promise that I will do my best to ensure that all computing club resources are kept up to  date and strive to initiate improvements whenever possible so that all computing students will be able to  get timely updates through different tech channels. I will also ensure that I do my best to proactively support  everyone in School of Computing by being an individual that you can easily reach out to!"
             },
             {
                 "name": "Chen Shun",
