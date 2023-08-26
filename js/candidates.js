@@ -10,32 +10,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "Vote for me as the President of the NUS Computing Club for a year of innovation, collaboration, and growth!<br><br>As the deputy director of publicity during the last year, I have fervently contributed to the club's success by developing a sense of community and bringing together and encouraging students' interest and engagement in the club. As President, I'll take this commitment to the next level. My experience guarantees a seamless transfer, allowing us to hit the ground running.<br><br>I'm committed to increasing the effect of our club by planning exciting events that combines theory and experience. I will be sure to magnify the voices of our members and ensure that every idea is heard and recognised with my demonstrated skills in cooperation and effective communication."
             },
             {
-                "name": "Thia Jean Shuen, Summer",
-                "role": "General Secretary",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I'm Summer Thia, a Y2 Bza student running for the role of General Secretary. Previously the FOP Deputy Director in Computing Club, I am extremely grateful for the growth, fun and learning experience I have had in the past year. My constant involvement in the club has very much resulted in me growing an attachment towards it and I cannot imagine myself living a Uni life without being a part of it, without contributing towards it . Being more familiar with the workings of Computing Club MC, I strive to utilize my experience and passion to make the club a comfortable and cohesive home and to provide a fulfilling Uni experience to Computing students. I aim to be a reliable and trustworthy companion to the President and the MC, to facilitate the smooth operations of the club and to be the reason why MC members are motivated to fulfill their responsibilities."
-            },
-            {
-                "name": "Chen Shun",
+                "name": "Rayson",
                 "role": "Tech Lead",
                 "course": "Year 2 / Computer Science",
-                "manifesto": "Hi!! I'm Chen Shun, a year 2 Computer Science student, running to be your Tech Lead. Since we are all students of computing, we are all tech-savvy individuals and are constantly using some form of technology. As Tech Lead, I would like to create websites or applications for SOC students to use, to better connect computing club with students of our faculty and to integrate technology into our events. I would also like to collaborate with various like-minded individuals with passion for coding to brainstorm and bring to fruition new applications that can benefit our peers. After all, what is a school of computing without programmes created by students!"
+                "manifesto": "Hi, I’m Rayson and I’m running for computing club. You can count on my unwavering dedication—I'm up late and early grinding to help whenever you need it. I'm all about giving my best energy and ideas to the role. I'm vying for the Tech Lead position to make a meaningful impact and foster open dialogues within the club.<br><br>Why vote for me? I genuinely love programming and have a track record of projects, including my portfolio website and a summer-built orbital project. Aside from my technical experience, I will also strive to do my best to give everyone a better student life experience. I'll actively gather input from committees to enhance existing processes and introduce new features to help improve accessibility.<br><br>My experience and passion aim to drive innovations that boost committee productivity. With your vote, I'll work tirelessly to enhance your journey. Thank you for your consideration."
             }
         ],
-        "External Relations": [
-            {
-                "name": "Fion Lim Xuan Ning",
-                "role": "Vice President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "I am Fion, currently a year 2 BZA student and running for Vice President (External Relations). I am running for VPER because I want to foster more meaningful student engagement and bolster partnerships, be it with other companies, alumni or other organisations. Through my experience with FOPs in 2022, I realized that there was more to be done to guard against companies or external organisations whom may take advantage of students’ information. Hence I decided to run for VPER to ensure the selection of organisations who had expectations and values aligned more closely to SOC’s. Moreover, through thoughtful publicity and establishment of SOC’s image I believe that partnering with external organisations which can bring SOC students greater opportunity is achievable, eliminating the need to sought after companies which may not meet the current needs of SOC students. Ultimately, I envision to better fulfill these needs and create a better SOC."
-            },
-            {
-                "name": "Micaella Deniega Ilagan",
-                "role": "Director, Publicity",
-                "course": "Year 2 / Information Systems",
-                "manifesto": "I am Micaella Deniega Ilagan, a Year 2 Information Systems student, and I am running for the role Director of Publicity in the 25th Computing Club Management Committee (MC). Having been part of many publicity and project committees in my life, I found the ones that let me explore and grow the most in in those in the 24th MC. If given the chance, I will passionately advocate for and encourage creative freedom in the Publicity Cell and create a fun substrate where others may share my fondness and dedication towards design and reaching out to others. I will work with the like-minded individuals of Publicity to continue producing design and publicity work that we as a committee can be proud of. I believe I am the candidate with the experience needed but most importantly the enthusiasm and passion for the area of work that is Publicity."
-            }
-        ],
+//        "External Relations": [
+//            {
+//                "name": "Fion Lim Xuan Ning",
+//                "role": "Vice President",
+//                "course": "Year 2 / Business Analytics",
+//                "manifesto": "I am Fion, currently a year 2 BZA student and running for Vice President (External Relations). I am running for VPER because I want to foster more meaningful student engagement and bolster partnerships, be it with other companies, alumni or other organisations. Through my experience with FOPs in 2022, I realized that there was more to be done to guard against companies or external organisations whom may take advantage of students’ information. Hence I decided to run for VPER to ensure the selection of organisations who had expectations and values aligned more closely to SOC’s. Moreover, through thoughtful publicity and establishment of SOC’s image I believe that partnering with external organisations which can bring SOC students greater opportunity is achievable, eliminating the need to sought after companies which may not meet the current needs of SOC students. Ultimately, I envision to better fulfill these needs and create a better SOC."
+//            },
+//            {
+//                "name": "Micaella Deniega Ilagan",
+//                "role": "Director, Publicity",
+//                "course": "Year 2 / Information Systems",
+//                "manifesto": "I am Micaella Deniega Ilagan, a Year 2 Information Systems student, and I am running for the role Director of Publicity in the 25th Computing Club Management Committee (MC). Having been part of many publicity and project committees in my life, I found the ones that let me explore and grow the most in in those in the 24th MC. If given the chance, I will passionately advocate for and encourage creative freedom in the Publicity Cell and create a fun substrate where others may share my fondness and dedication towards design and reaching out to others. I will work with the like-minded individuals of Publicity to continue producing design and publicity work that we as a committee can be proud of. I believe I am the candidate with the experience needed but most importantly the enthusiasm and passion for the area of work that is Publicity."
+//            }
+//        ],
         "Internal Relations": [
             {
                 "name": "Lek Kai Hin Joshua",
@@ -44,22 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 "manifesto": "2 main reasons why you should vote for me:<br>Firstly, I’m pushing for a digital platform for your academic needs. The platform is essentially a large-scale online library for NUS students to access every module’s content, reviews and detailed guides. This will help prevent situations like (1)choosing the wrong module and (2)falling behind in class. (3)It can help you better prepare for exams by having access to past year questions and lectures, and seniors notes or cheat sheets. Think of the platform as a blend of NUSMODS and Canvas, with all resources stored under one centralised system.<br><br>Secondly, you can expect the internal relations department to alleviate your stress. Other than the usual care packages, buzzfeed personality type quizzes will be curated and released weekly for your entertainment. It also serves as an opportunity to improve student engagement."
             },
             {
-                "name": "Ivan Chin Yue Ze",
-                "role": "Vice President",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "Hey, I am Ivan Chin, a Y2 Business Analytics Undergraduate, and I will be running for Vice President (Internal Relations) for the 25th Management Committee. I am someone who serves with his heart and is passionate about giving back to communities. With my experience as an IFG Computing Captain, along with being the Vice Project Director of Freshmen Orientation Week 2022, I believe I am capable in managing as well as setting the direction for the internal relations cell. If elected, I am committed to giving my 100% to make your lives in computing better. Your feedback is important to me and I am willing to push for initiatives to cater to what the student population needs and wants."
-            },
-            {
                 "name": "Koo Jay-Lynn",
                 "role": "Director, Welfare",
                 "course": "Year 2 / Information Systems",
                 "manifesto": "I am running to be your Welfare Director! Being part of Welfare subcomm last AY, I was involved in many welfare activities, ranging from exam welfare packing and distribution to Wellness Carnival. The Welfare Cell’s mission to spread joy and support students’ mental health resonates deeply with me, which is why I would like to take up this role. I am friendly and approachable, so you should not fear approaching me with your issues and concerns. As an empathetic individual, I will listen actively to the concerns and needs of Computing Club members and take new suggestions and ideas into account when coming up with Welfare activities. Furthermore, as someone who values teamwork and working with others, I am committed to working and collaborating with the next Welfare subcommittee and the 26th Management Committee to bring bigger and better things to SoC and create a caring community for all!"
-            },
-            {
-                "name": "Tan Sin Chez, Jaron",
-                "role": "Director, Sports",
-                "course": "Year 2 / Business Analytics",
-                "manifesto": "Hi everyone! I am Tan Sin Chez, Jaron, a Y2 Business Analytics student at NUS. I am running for the position of Computing Club Sports Director as I want to share my passion for sports with the rest of the student body. I understand that computing is a rigorous course and we often neglect our physical health in the pursuit of academic excellence. However, if I were to become the Sports director, I would like to create a community for students with similar interests to band together and play sports together, for students who have not tried to learn any sports before to step out of their comfort zone and find computing a safe space to try something new. I will be looking forward to serve everyone and improve the sports scene in computing by being on the management committee."
             }
         ],
         "Student Development": [
@@ -107,12 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "course": "Year 1 / Computer Science",
                 "manifesto": "Hi y'all, my name is Raeeda and I'm a year 1 CS major running to be the next Freshman Orientation Programme Director.<br><br>As the FOPD, I plan to empower the subcommittees under me to explore the depths of their own creativity and come up with highly innovative, and engaging programmes to welcome countless incoming students into Computing. More than a basic introduction to our faculty, I would aim to integrate freshmen into the vibrant culture of SoC through the multiple events.<br><br>Additionally, I want all seniors involved to be able to reminisce on and relive their own FOP experience, while also making it better (if they so choose). I promise to be an understanding and accountable middleman between all stakeholders, be it faculty, subcomm or sponsors.<br><br>But if you don't know me at all, why would you vote for me? So here's more info: I'm from NUS College, staying on campus at Cinnamon College at UTown. I can be most commonly found hanging with NUSC friends (so many SoC...) struggling to process 1231S or at the Terrace, making new SoC friends everyday. Next time you see me (I have Very red hair...), do stop me for a quick chat’ Whether or not we cross paths physically, you can always find me on telegram and/or instagram at @fluoraescence. I will reply almost instantly, 24/7!<br><br>I'm looking forward to working with what I can already foresee as a wonderfully passionate Management Comm, if you decide I'm the right person for the job! :)"
             },
-            {
-                "name": "Raman Gupta",
-                "role": "Director, Student Engagement",
-                "course": "Year 1 / Computer Science",
-                "manifesto": "<b><u>My Experience</u></b><br><br>Founder(Quiz Club): remotely organized online team-based quizzes in school when lockdown hit.<br><br>Founder(BizCon): organized physical financial simulation event in school during September 2020 (Phase-2 COVID-Reopening), with 130 participants.<br><br>Secretary(Student-Council): Part of 7-member council core team. Drafted safety plan for resumption of physical school events.<br><br><b><u>My Skills</b></u><br><br>Perceptive & Observant: enables me to understand student needs and integrate their ideas and suggestions into Computing Club. <br><br>Articulate Communicator: helps me be a seamless part of the MC, while also enabling me to raise student issues more effectively.<br><br>Fun & Approachable: Reach out to me anytime with fun ideas for Computing events, bowling plans, or just a friendly game of FIFA!<br><br><b><u>I aspire to…</u></b><br><br>build an interactive and collaborative environment at SoC <b>through</b><br><br><ul style=\"padding-left:1em\"><li>Fun-filled enriching events</li><li>Exciting mass challenges</li><li>Academic and Social Mixers</li><li >Inter-year and Inter-major collaboration opportunities</li></ul><br><br>Vote for <b>STUDENTS</b>. Vote for <b>ENGAGEMENT</b>. Vote for <b>RAMAN</b>! "
-            }
         ],
         "NUSSU EXCO Representative": [
             {
