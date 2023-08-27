@@ -17,18 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         ],
         "External Relations": [
-//            {
-//                "name": "Fion Lim Xuan Ning",
-//                "role": "Vice President",
-//                "course": "Year 2 / Business Analytics",
-//                "manifesto": "I am Fion, currently a year 2 BZA student and running for Vice President (External Relations). I am running for VPER because I want to foster more meaningful student engagement and bolster partnerships, be it with other companies, alumni or other organisations. Through my experience with FOPs in 2022, I realized that there was more to be done to guard against companies or external organisations whom may take advantage of students’ information. Hence I decided to run for VPER to ensure the selection of organisations who had expectations and values aligned more closely to SOC’s. Moreover, through thoughtful publicity and establishment of SOC’s image I believe that partnering with external organisations which can bring SOC students greater opportunity is achievable, eliminating the need to sought after companies which may not meet the current needs of SOC students. Ultimately, I envision to better fulfill these needs and create a better SOC."
-//            },
-//            {
-//                "name": "Micaella Deniega Ilagan",
-//                "role": "Director, Publicity",
-//                "course": "Year 2 / Information Systems",
-//                "manifesto": "I am Micaella Deniega Ilagan, a Year 2 Information Systems student, and I am running for the role Director of Publicity in the 25th Computing Club Management Committee (MC). Having been part of many publicity and project committees in my life, I found the ones that let me explore and grow the most in in those in the 24th MC. If given the chance, I will passionately advocate for and encourage creative freedom in the Publicity Cell and create a fun substrate where others may share my fondness and dedication towards design and reaching out to others. I will work with the like-minded individuals of Publicity to continue producing design and publicity work that we as a committee can be proud of. I believe I am the candidate with the experience needed but most importantly the enthusiasm and passion for the area of work that is Publicity."
-//            }
         ],
         "Internal Relations": [
             {
